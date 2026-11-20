@@ -1,0 +1,60 @@
+{
+  "MT-BB-01": {
+    "title": "Taqwa Travel - Haji & Umroh Terpercaya",
+    "h1": [
+      "Haji & Umroh Terpercaya",
+      "Haji & Umroh Terpercaya"
+    ],
+    "heroCta": [
+      "Lihat Paket",
+      "Konsultasi Gratis"
+    ],
+    "packages": 4
+  },
+  "MT-BB-03": {
+    "listbox": true,
+    "options": [
+      "Umroh",
+      "Haji",
+      "Tour"
+    ]
+  },
+  "MT-BB-04": {
+    "visibleText": [
+      "Reservasi dengan kode tersebut tidak ditemukan",
+      "Tidak ada biaya tersembunyi. Semua detail biaya dijelaskan dengan jelas sejak awal."
+    ],
+    "url": "https://taqwatravel.com/"
+  },
+  "MT-BB-05": {
+    "status": 404,
+    "heading": "Halaman Tidak Ditemukan",
+    "robotsMeta": null
+  },
+  "MT-BB-06": {
+    "invalidFields": 0,
+    "requiredFields": 0,
+    "url": "/daftar-agen"
+  },
+  "MT-GB-02": {
+    "h1": "Admin Login",
+    "robots": null,
+    "hasPasswordField": true
+  },
+  "MT-BB-07": {
+    "cards": 5,
+    "hasHargaText": false,
+    "priceSamples": []
+  },
+  "MT-BB-02": {
+    "menuLinks": [
+      "Beranda",
+      "Profil",
+      "Galeri",
+      "Artikel",
+      "Agen Resmi",
+      "Daftar Agen"
+    ],
+    "overflowX": 0
+  }
+}

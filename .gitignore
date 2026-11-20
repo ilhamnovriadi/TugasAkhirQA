@@ -1,0 +1,15 @@
+# Dependensi
+node_modules/
+
+# Artefak eksekusi Playwright (dapat dibuat ulang dengan `npm test`)
+reports/html/
+reports/artifacts/
+test-results/
+playwright-report/
+
+# Metadata alat & sistem operasi
+.freebuff/
+.DS_Store
+
+# Berkas sementara
+*.log

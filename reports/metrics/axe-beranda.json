@@ -1,0 +1,34 @@
+{
+  "violations": [
+    {
+      "id": "button-name",
+      "impact": "critical",
+      "help": "Buttons must have discernible text",
+      "nodes": 2,
+      "sample": [
+        ".left-2",
+        ".right-2"
+      ]
+    },
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "nodes": 1,
+      "sample": [
+        ".bg-green-600"
+      ]
+    },
+    {
+      "id": "meta-viewport",
+      "impact": "moderate",
+      "help": "Zooming and scaling must not be disabled",
+      "nodes": 1,
+      "sample": [
+        "meta[name=\"viewport\"]"
+      ]
+    }
+  ],
+  "passes": 23,
+  "incomplete": 2
+}

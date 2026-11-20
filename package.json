@@ -1,0 +1,21 @@
+{
+  "name": "taqwatravel-qa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QA & testing artefact untuk taqwatravel.com berdasarkan ISO/IEC/IEEE 29119-1:2022 dan ISO/IEC 25040:2024",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:blackbox": "playwright test tests/01-blackbox",
+    "test:whitebox": "playwright test tests/02-whitebox",
+    "test:greybox": "playwright test tests/03-greybox",
+    "test:nonfungsional": "playwright test tests/04-nonfungsional",
+    "report": "playwright show-report reports/html",
+    "summary": "node scripts/summarize.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.56.1",
+    "typescript": "^5.9.2"
+  }
+}

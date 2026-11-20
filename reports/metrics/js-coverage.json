@@ -1,0 +1,130 @@
+{
+  "filesTotal": 99,
+  "filesOwn": 58,
+  "ownTotalBytes": 484205,
+  "ownTotalFunctions": 1937,
+  "ownFunctionsCalled": 1341,
+  "ownFunctionCoveragePercent": 69.23,
+  "top": [
+    {
+      "url": "/_app/immutable/chunks/D8J_gqhc.js",
+      "bytes": 102097,
+      "functions": 381,
+      "functionsCalled": 311,
+      "functionCoveragePercent": 81.6,
+      "byteRangesExecuted": 102097
+    },
+    {
+      "url": "/_app/immutable/chunks/C1ahHjKc.js",
+      "bytes": 63458,
+      "functions": 153,
+      "functionsCalled": 102,
+      "functionCoveragePercent": 66.7,
+      "byteRangesExecuted": 63458
+    },
+    {
+      "url": "/_app/immutable/nodes/29.pWaZJUBi.js",
+      "bytes": 57116,
+      "functions": 177,
+      "functionsCalled": 107,
+      "functionCoveragePercent": 60.5,
+      "byteRangesExecuted": 57116
+    },
+    {
+      "url": "/_app/immutable/chunks/Bfpp4jOx.js",
+      "bytes": 42793,
+      "functions": 320,
+      "functionsCalled": 206,
+      "functionCoveragePercent": 64.4,
+      "byteRangesExecuted": 42793
+    },
+    {
+      "url": "/_app/immutable/chunks/BBF0KuLD.js",
+      "bytes": 35252,
+      "functions": 208,
+      "functionsCalled": 123,
+      "functionCoveragePercent": 59.1,
+      "byteRangesExecuted": 35252
+    },
+    {
+      "url": "/_app/immutable/chunks/Nhiy5h4_.js",
+      "bytes": 27064,
+      "functions": 121,
+      "functionsCalled": 99,
+      "functionCoveragePercent": 81.8,
+      "byteRangesExecuted": 27064
+    },
+    {
+      "url": "/_app/immutable/chunks/xf0BWGTx.js",
+      "bytes": 20222,
+      "functions": 11,
+      "functionsCalled": 1,
+      "functionCoveragePercent": 9.1,
+      "byteRangesExecuted": 20222
+    },
+    {
+      "url": "/_app/immutable/entry/app.q4i9VFzz.js",
+      "bytes": 16133,
+      "functions": 107,
+      "functionsCalled": 59,
+      "functionCoveragePercent": 55.1,
+      "byteRangesExecuted": 16133
+    },
+    {
+      "url": "/_app/immutable/chunks/pxYGkfdS.js",
+      "bytes": 11170,
+      "functions": 32,
+      "functionsCalled": 1,
+      "functionCoveragePercent": 3.1,
+      "byteRangesExecuted": 11170
+    },
+    {
+      "url": "/_app/immutable/nodes/4.HoKuXkHR.js",
+      "bytes": 11118,
+      "functions": 45,
+      "functionsCalled": 45,
+      "functionCoveragePercent": 100,
+      "byteRangesExecuted": 11118
+    },
+    {
+      "url": "/_app/immutable/chunks/BenH0A9o.js",
+      "bytes": 7736,
+      "functions": 45,
+      "functionsCalled": 23,
+      "functionCoveragePercent": 51.1,
+      "byteRangesExecuted": 7736
+    },
+    {
+      "url": "/_app/immutable/chunks/D4pkWFp2.js",
+      "bytes": 7170,
+      "functions": 40,
+      "functionsCalled": 28,
+      "functionCoveragePercent": 70,
+      "byteRangesExecuted": 7170
+    },
+    {
+      "url": "/_app/immutable/chunks/DCx-N-Pj.js",
+      "bytes": 7084,
+      "functions": 39,
+      "functionsCalled": 30,
+      "functionCoveragePercent": 76.9,
+      "byteRangesExecuted": 7084
+    },
+    {
+      "url": "/_app/immutable/chunks/ByCN0Pm2.js",
+      "bytes": 6163,
+      "functions": 3,
+      "functionsCalled": 1,
+      "functionCoveragePercent": 33.3,
+      "byteRangesExecuted": 6163
+    },
+    {
+      "url": "/_app/immutable/nodes/1.B-OY6ncp.js",
+      "bytes": 4271,
+      "functions": 3,
+      "functionsCalled": 1,
+      "functionCoveragePercent": 33.3,
+      "byteRangesExecuted": 4271
+    }
+  ]
+}

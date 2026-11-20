@@ -1,0 +1,474 @@
+{
+  "config": {
+    "argv": [
+      "/Users/ideku-device/.nvm/versions/node/v24.15.0/bin/node",
+      "/Volumes/IDEKU/Learning/TugasAkhirQA/node_modules/.bin/playwright",
+      "test",
+      "--list",
+      "tests/04-nonfungsional"
+    ],
+    "configFile": "/Volumes/IDEKU/Learning/TugasAkhirQA/playwright.config.ts",
+    "rootDir": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium-desktop",
+        "name": "chromium-desktop",
+        "testDir": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "chromium-desktop",
+        "testDir": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests",
+        "snapshotDir": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "https://taqwatravel.com",
+          "locale": "id-ID",
+          "timezoneId": "Asia/Jakarta",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "actionTimeout": 15000,
+          "navigationTimeout": 45000,
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36",
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium-desktop"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/html",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "04-nonfungsional/01-kinerja.spec.ts",
+      "file": "04-nonfungsional/01-kinerja.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "NF — Kinerja (ISO/IEC 25010:2023 performance efficiency)",
+          "file": "04-nonfungsional/01-kinerja.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-NF-01 LCP dan TTFB beranda dalam anggaran",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "9a9297ae01831dfbe447-89142541d256dc00efaa",
+              "file": "04-nonfungsional/01-kinerja.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "TC-NF-02 Berat halaman dan jumlah request dalam anggaran",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "9a9297ae01831dfbe447-042d905fa14db566fe48",
+              "file": "04-nonfungsional/01-kinerja.spec.ts",
+              "line": 32,
+              "column": 3
+            },
+            {
+              "title": "TC-NF-03 Halaman paket dan artikel termuat di bawah 5 detik",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "9a9297ae01831dfbe447-9f713238fc663a256f0e",
+              "file": "04-nonfungsional/01-kinerja.spec.ts",
+              "line": 48,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "04-nonfungsional/02-responsif.spec.ts",
+      "file": "04-nonfungsional/02-responsif.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "NF — Responsif & kompatibilitas tampilan",
+          "file": "04-nonfungsional/02-responsif.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-NF-04 Tidak ada overflow horizontal pada mobile (375px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "858456c762f49aac3b31-cf116bafdcec256b42b2",
+              "file": "04-nonfungsional/02-responsif.spec.ts",
+              "line": 10,
+              "column": 5
+            },
+            {
+              "title": "TC-NF-04 Tidak ada overflow horizontal pada tablet (768px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "858456c762f49aac3b31-5f90f0d919a54239dfce",
+              "file": "04-nonfungsional/02-responsif.spec.ts",
+              "line": 10,
+              "column": 5
+            },
+            {
+              "title": "TC-NF-04 Tidak ada overflow horizontal pada desktop (1280px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "858456c762f49aac3b31-1c00383e4926125a13f9",
+              "file": "04-nonfungsional/02-responsif.spec.ts",
+              "line": 10,
+              "column": 5
+            },
+            {
+              "title": "TC-NF-04 Tidak ada overflow horizontal pada wide (1920px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "858456c762f49aac3b31-e8fdadd15d15ccfab96c",
+              "file": "04-nonfungsional/02-responsif.spec.ts",
+              "line": 10,
+              "column": 5
+            },
+            {
+              "title": "TC-NF-05 Tombol menu mobile memiliki target sentuh memadai",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "858456c762f49aac3b31-2205b048fe9182d56e78",
+              "file": "04-nonfungsional/02-responsif.spec.ts",
+              "line": 30,
+              "column": 3
+            },
+            {
+              "title": "TC-NF-06 Judul hero tetap terbaca pada layar mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "858456c762f49aac3b31-dab28ee424a08004832f",
+              "file": "04-nonfungsional/02-responsif.spec.ts",
+              "line": 40,
+              "column": 3
+            },
+            {
+              "title": "TC-NF-07 Tata letak tidak rusak saat zoom 200% (viewport 640px)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "858456c762f49aac3b31-a4c99b9c2e1c35a0c9fb",
+              "file": "04-nonfungsional/02-responsif.spec.ts",
+              "line": 49,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "04-nonfungsional/03-aksesibilitas.spec.ts",
+      "file": "04-nonfungsional/03-aksesibilitas.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "NF — Aksesibilitas (ISO/IEC 25010:2023 interaction capability)",
+          "file": "04-nonfungsional/03-aksesibilitas.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-NF-08 Pemindaian axe beranda: tidak ada pelanggaran critical",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "9024c212bc16a038701d-549920ef1f001ddd4425",
+              "file": "04-nonfungsional/03-aksesibilitas.spec.ts",
+              "line": 12,
+              "column": 5
+            },
+            {
+              "title": "TC-NF-08 Pemindaian axe products: tidak ada pelanggaran critical",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "9024c212bc16a038701d-37f20dfa185dc4698b85",
+              "file": "04-nonfungsional/03-aksesibilitas.spec.ts",
+              "line": 12,
+              "column": 5
+            },
+            {
+              "title": "TC-NF-08 Pemindaian axe daftar-agen: tidak ada pelanggaran critical",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "9024c212bc16a038701d-16a4f6d70a8ff43b640e",
+              "file": "04-nonfungsional/03-aksesibilitas.spec.ts",
+              "line": 12,
+              "column": 5
+            },
+            {
+              "title": "TC-NF-09 Skip link tersedia dan berfungsi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "9024c212bc16a038701d-5d5308d7c32fa27d2538",
+              "file": "04-nonfungsional/03-aksesibilitas.spec.ts",
+              "line": 45,
+              "column": 3
+            },
+            {
+              "title": "TC-NF-10 Fokus keyboard terlihat pada elemen interaktif",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "9024c212bc16a038701d-ed72943379a0ae77ea38",
+              "file": "04-nonfungsional/03-aksesibilitas.spec.ts",
+              "line": 55,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-20T21:22:54.546Z",
+    "duration": 45.47800000000001,
+    "expected": 0,
+    "skipped": 15,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

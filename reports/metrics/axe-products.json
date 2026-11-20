@@ -1,0 +1,15 @@
+{
+  "violations": [
+    {
+      "id": "meta-viewport",
+      "impact": "moderate",
+      "help": "Zooming and scaling must not be disabled",
+      "nodes": 1,
+      "sample": [
+        "meta[name=\"viewport\"]"
+      ]
+    }
+  ],
+  "passes": 20,
+  "incomplete": 1
+}

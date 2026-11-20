@@ -1,0 +1,11 @@
+{
+  "scrollWidth": 1280,
+  "innerWidth": 1280,
+  "offenders": [
+    "div.flex",
+    "div.flex-shrink-0",
+    "div.rounded-xl",
+    "div.relative",
+    "img.w-full"
+  ]
+}
