@@ -11,7 +11,8 @@
     "test:greybox": "playwright test tests/03-greybox",
     "test:nonfungsional": "playwright test tests/04-nonfungsional",
     "report": "playwright show-report reports/html",
-    "summary": "node scripts/summarize.mjs"
+    "summary": "node scripts/summarize.mjs",
+    "diagrams": "node scripts/render-diagrams.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.10.2",

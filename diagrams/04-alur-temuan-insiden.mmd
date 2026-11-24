@@ -1,0 +1,7 @@
+flowchart TD
+    G["Test case gagal"] --> Q{"Defect pada produk?"}
+    Q -->|"Ya"| I["Catat INC-xx<br/>bukti + langkah reproduksi"]
+    Q -->|"Tidak"| F["Perbaiki skrip atau data uji"]
+    I --> K["Petakan ke karakteristik<br/>ISO/IEC 25010:2023"]
+    K --> S["Tetapkan keparahan<br/>Critical / High / Medium / Low"]
+    S --> R["Rekomendasi prioritas<br/>docs/07 bagian 7.1"]

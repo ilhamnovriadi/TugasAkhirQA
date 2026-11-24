@@ -1,0 +1,14 @@
+flowchart TD
+    F1["Tahap 1: Menetapkan kebutuhan evaluasi<br/>ISO/IEC 25040:2024"] --> O1["Lingkup, aktor, karakteristik ISO/IEC 25010:2023<br/>ambang lulus + kriteria keluar"]
+    O1 --> F2["Tahap 2: Menyusun spesifikasi evaluasi"]
+    F2 --> O2["35 TC black box, 13 TC white box<br/>23 TC grey box, 10 TC non-fungsional"]
+    O2 --> F3["Tahap 3: Merancang evaluasi"]
+    F3 --> O3["12 skenario manual + 15 berkas suite Playwright<br/>keyword-driven ISO/IEC/IEEE 29119-5:2024"]
+    O3 --> F4["Tahap 4: Melaksanakan evaluasi"]
+    F4 --> M["Manual: white box, black box, grey box<br/>bukti di qa-evidence/"]
+    F4 --> A["Otomatis: npm test<br/>reports/results.json"]
+    M --> AN["Analisis hasil + pencatatan insiden"]
+    A --> AN
+    AN --> F5["Tahap 5: Menyimpulkan evaluasi"]
+    F5 --> O5["Skor ISO/IEC 25010: 3,6/5<br/>quality-in-use: 3/5"]
+    O5 --> L["docs/06 laporan evaluasi<br/>docs/07 daftar insiden + rekomendasi"]

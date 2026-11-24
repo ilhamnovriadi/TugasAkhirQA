@@ -1,0 +1,9 @@
+flowchart LR
+    CFG["playwright.config.ts<br/>baseURL produksi, Chromium 1280x800"] --> RUN["npm test<br/>15 berkas, 2 worker"]
+    RUN -->|"HTTP read-only"| TOE["taqwatravel.com"]
+    RUN --> RES["reports/results.json<br/>86 hasil test"]
+    RUN --> HTML["reports/html/<br/>laporan Playwright"]
+    RES --> SUM["npm run summary<br/>scripts/summarize.mjs"]
+    SUM --> D05["docs/05-hasil-otomasi.md<br/>reports/SUMMARY.md"]
+    MET["reports/metrics/*.json<br/>kinerja, axe, coverage"] --> D05
+    RES --> D07["docs/07-daftar-insiden.md"]
