@@ -1,16 +1,16 @@
-# Tugas Akhir QA — Pengujian taqwatravel.com
+# Tugas Akhir QA - Pengujian taqwatravel.com
 
 Repositori artefak **penjaminan kualitas (QA)** dan **pengujian perangkat lunak** untuk situs
-produksi **[taqwatravel.com](https://taqwatravel.com)** (Taqwa Travel — travel haji & umroh
+produksi **[taqwatravel.com](https://taqwatravel.com)** (Taqwa Travel - travel haji & umroh
 Palembang). Seluruh aktivitas disusun mengikuti standar internasional terbitan **2022–2026** dan
 dijalankan secara **manual** (white box, black box, grey box) serta **otomatis**
 (Playwright + axe-core).
 
 | Ringkasan | Keterangan |
 |---|---|
-| Objek uji | [https://taqwatravel.com](https://taqwatravel.com) — produksi, pengujian *read-only* |
+| Objek uji | [https://taqwatravel.com](https://taqwatravel.com) - produksi, pengujian *read-only* |
 | Standar acuan | [8 standar ISO/IEC/IEEE 2022–2026](#standar-acuan) |
-| Hasil terakhir | [86 test case: 71 lulus, 15 gagal](#hasil-pengujian) — kegagalan adalah defect nyata |
+| Hasil terakhir | [86 test case: 71 lulus, 15 gagal](#hasil-pengujian) - kegagalan adalah defect nyata |
 | Laporan | [Evaluasi kualitas](docs/06-laporan-evaluasi.md) · [Daftar insiden](docs/07-daftar-insiden.md) |
 | Jadwal | [Timeline 12 Okt–5 Des 2026 + diagram Gantt](docs/08-timeline-dan-pembagian-tugas.md) |
 
@@ -45,7 +45,7 @@ Repositori ini disusun oleh Kelompok 2 untuk tugas akhir QA.
 
 | Item | Keterangan |
 |---|---|
-| Objek uji (TOE) | [https://taqwatravel.com](https://taqwatravel.com) — Taqwa Travel (PT. Taqwa Cahaya Semesta) |
+| Objek uji (TOE) | [https://taqwatravel.com](https://taqwatravel.com) - Taqwa Travel (PT. Taqwa Cahaya Semesta) |
 | Jenis sistem | Aplikasi web SvelteKit (SSR) di Cloudflare; API `api.taqwatravel.com`, aset `s3.taqwatravel.com` |
 | Versi yang diuji | Deployment produksi per 20 November 2026 |
 | Sifat pengujian | *Read-only*: tidak ada data pelanggan dibuat, tidak ada pembayaran/lead dikirim, formulir hanya diuji dengan input kosong atau tidak valid |
@@ -78,7 +78,7 @@ setiap tahap ([docs/02-test-plan.md §2.10](docs/02-test-plan.md#210-fase-kerja-
 
 [![Alur lima tahap evaluasi ISO/IEC 25040:2024](diagrams/01-alur-pengujian.png)](diagrams/01-alur-pengujian.png)
 
-*Gambar 1 — Alur pengujian lima tahap ISO/IEC 25040:2024 beserta keluarannya. Sumber Mermaid:
+*Gambar 1 - Alur pengujian lima tahap ISO/IEC 25040:2024 beserta keluarannya. Sumber Mermaid:
 [diagrams/01-alur-pengujian.mmd](diagrams/01-alur-pengujian.mmd).*
 
 ## Kategori Pengujian
@@ -89,14 +89,14 @@ dibagi menjadi empat suite. Rancangan teknik dan test case-nya ada di
 
 [![Kategori pengujian manual dan otomatis](diagrams/02-kategori-pengujian.png)](diagrams/02-kategori-pengujian.png)
 
-*Gambar 2 — Pembagian pengujian manual (WB, BB, GB) dan otomatis (4 suite, 86 test). Sumber
+*Gambar 2 - Pembagian pengujian manual (WB, BB, GB) dan otomatis (4 suite, 86 test). Sumber
 Mermaid: [diagrams/02-kategori-pengujian.mmd](diagrams/02-kategori-pengujian.mmd).*
 
 ## Alur Otomasi dan Pelaporan
 
 [![Alur otomasi dan pelaporan hasil](diagrams/03-alur-otomasi-pelaporan.png)](diagrams/03-alur-otomasi-pelaporan.png)
 
-*Gambar 3 — Alur eksekusi otomasi hingga laporan dan rekap metrik. Sumber Mermaid:
+*Gambar 3 - Alur eksekusi otomasi hingga laporan dan rekap metrik. Sumber Mermaid:
 [diagrams/03-alur-otomasi-pelaporan.mmd](diagrams/03-alur-otomasi-pelaporan.mmd).*
 
 ## Alur Temuan Menjadi Insiden
@@ -107,7 +107,7 @@ defect produk yang dicatat sebagai insiden dan dipetakan ke karakteristik kualit
 
 [![Alur temuan menjadi insiden](diagrams/04-alur-temuan-insiden.png)](diagrams/04-alur-temuan-insiden.png)
 
-*Gambar 4 — Triase kegagalan test menjadi insiden INC-xx beserta keparahan dan rekomendasi. Sumber
+*Gambar 4 - Triase kegagalan test menjadi insiden INC-xx beserta keparahan dan rekomendasi. Sumber
 Mermaid: [diagrams/04-alur-temuan-insiden.mmd](diagrams/04-alur-temuan-insiden.mmd).*
 
 > Seluruh diagram disimpan sebagai **gambar PNG** di [diagrams/](diagrams) agar bisa langsung
@@ -195,7 +195,7 @@ Hasil lengkap tiap skenario manual (termasuk yang tidak disertai tangkapan layar
 ## Literatur
 
 Seluruh acuan adalah **standar internasional**, bukan artikel jurnal. Folder
-[literatur/preview/](literatur/preview) memuat *sample document* resmi dari penerbit (10–15
+[literatur/preview/](literatur/preview) memuat *sample document* resmi dari penerbit (10-15
 halaman pertama) untuk keperluan identifikasi; **teks lengkap standar berbayar tidak
 didistribusikan ulang**. Sitasi IEEE, tautan katalog, dan cara memperoleh teks penuh tersedia di
 [literatur/README.md](literatur/README.md).
