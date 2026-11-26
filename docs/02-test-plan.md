@@ -1,4 +1,4 @@
-# 02 — Rencana Pengujian (Test Plan)
+# 02 - Rencana Pengujian (Test Plan)
 
 Fase **“menetapkan kebutuhan evaluasi”** pada ISO/IEC 25040:2024 §7.2, dengan istilah dan
 konsep dari ISO/IEC/IEEE 29119-1:2022 serta objektif kualitas dari ISO/IEC 25010:2023.
@@ -7,7 +7,7 @@ konsep dari ISO/IEC/IEEE 29119-1:2022 serta objektif kualitas dari ISO/IEC 25010
 
 | Item | Keterangan |
 |---|---|
-| Objek uji (TOE) | Situs publik **https://taqwatravel.com** — Taqwa Travel (PT. Taqwa Cahaya Semesta) |
+| Objek uji (TOE) | Situs publik **https://taqwatravel.com** - Taqwa Travel (PT. Taqwa Cahaya Semesta) |
 | Jenis sistem | Aplikasi web SvelteKit (SSR) di Cloudflare, API di `api.taqwatravel.com`, aset di `s3.taqwatravel.com` |
 | Versi yang diuji | Deployment produksi per 26 November 2026 (eksekusi awal 20 November 2026) |
 | Dokumen acuan | ISO/IEC 25040:2024, ISO/IEC/IEEE 29119-1:2022, 29119-5:2024, ISO/IEC 25010:2023, 25019:2023, 25002:2024, 15408-1:2026, 18045:2026 |
@@ -20,8 +20,8 @@ konsep dari ISO/IEC/IEEE 29119-1:2022 serta objektif kualitas dari ISO/IEC 25010
 
 1. Beranda: hero, pencarian paket, cek reservasi, nilai jual, slider paket, galeri, testimoni, artikel.
 2. Halaman `/profil`, `/products`, `/product/<slug>`, `/artikel`, `/artikel/<slug>`, `/galeri`, `/testimonials`, `/agen-resmi`, `/daftar-agen`, `/privacy`, `/terms`.
-3. Halaman `/dashboard` (login admin) — hanya untuk memastikan tidak ada akses tanpa autentikasi.
-4. Perilaku non-fungsional: kinerja muat, responsif 375–1920 px, aksesibilitas WCAG 2.0/2.1 A–AA.
+3. Halaman `/dashboard` (login admin) - hanya untuk memastikan tidak ada akses tanpa autentikasi.
+4. Perilaku non-fungsional: kinerja muat, responsif 375-1920 px, aksesibilitas WCAG 2.0/2.1 A-AA.
 5. Konfigurasi server yang teramati: status HTTP, header keamanan, robots.txt, sitemap.xml, canonical, JSON-LD, pengalihan HTTPS/www.
 6. Kualitas kode klien yang dikirim ke peramban: struktur DOM, label formulir, atribut `alt`, cakupan eksekusi JavaScript.
 
@@ -31,7 +31,7 @@ konsep dari ISO/IEC/IEEE 29119-1:2022 serta objektif kualitas dari ISO/IEC 25010
 - Transaksi nyata: pengiriman formulir pendaftaran agen yang valid, pembuatan reservasi, pembayaran.
 - Panel admin setelah login (tidak ada kredensial uji).
 - Aplikasi mobile native, integrasi WhatsApp/S3/YouTube di luar perilaku tampilan.
-- Pengujian keamanan ofensif (SQL injection, brute force) — hanya pemeriksaan konfigurasi defensif.
+- Pengujian keamanan ofensif (SQL injection, brute force) - hanya pemeriksaan konfigurasi defensif.
 
 ## 2.3 Peran
 
@@ -62,14 +62,14 @@ konsep dari ISO/IEC/IEEE 29119-1:2022 serta objektif kualitas dari ISO/IEC 25010
 
 | Kategori | Basis | Contoh aktivitas |
 |---|---|---|
-| White box | Kode/DOM yang dikirim server | Inspeksi `head`, hierarki heading, `id` duplikat, label–kontrol, coverage bundel |
+| White box | Kode/DOM yang dikirim server | Inspeksi `head`, hierarki heading, `id` duplikat, label-kontrol, coverage bundel |
 | Black box | Perilaku teramati | Navigasi, pencarian, filter, cek reservasi, formulir, galeri, 404 |
 | Grey box | Sebagian pengetahuan internal | Status HTTP, header, robots/sitemap, routing `/dashboard`, endpoint `/api/` |
 
 **Otomatis:** Playwright + axe-core, 86 test case, dijalankan dua kategori pekerja (2 worker)
 dengan pola *keyword-driven* (helper `goto`, `watch`, `assert`) sesuai ISO/IEC/IEEE 29119-5:2024.
 
-**Pendekatan:** risk-based (29119-1:2022) — modul yang berdampak langsung pada konversi jamaah
+**Pendekatan:** risk-based (29119-1:2022) - modul yang berdampak langsung pada konversi jamaah
 (pencarian paket, detail paket, cek reservasi, formulir agen) diberi prioritas tertinggi.
 
 ## 2.6 Lingkungan uji
