@@ -1,8 +1,8 @@
 # 04 — Hasil Pengujian Manual
 
 Eksekusi manual dilakukan pada peramban Chromium (panel Local browser) terhadap situs produksi
-`https://taqwatravel.com`, tanggal **20 November 2026**, viewport 1280×800 (desktop) dan 390×844
-(mobile). Bukti tangkapan layar dan pengukuran tersimpan di `qa-evidence/`.
+`https://taqwatravel.com`, tanggal **20 November 2026** dan diverifikasi ulang **26 November 2026**,
+viewport 1280×800 (desktop) dan 390×844 (mobile). Bukti tangkapan layar dan pengukuran tersimpan di `qa-evidence/`.
 
 Bukti visual dihasilkan dari sesi pengujian manual yang sama dan disimpan otomatis oleh
 `scripts/capture-manual-evidence.mjs` agar dapat direproduksi; nilai terukur dicatat pada

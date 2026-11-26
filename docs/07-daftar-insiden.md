@@ -51,3 +51,35 @@ yang gagal. Tingkat keparahan: **Critical** (menghambat tujuan utama/pengguna lu
 | Panel admin setelah login (CRUD paket, reservasi) | Tidak ada kredensial uji; pengujian hanya pada kontrol akses |
 | Submit pendaftaran agen yang valid | Menghindari pembuatan data nyata pada sistem produksi |
 | Pengujian beban, uji penetrasi, brute force login | Di luar izin dan lingkup tugas akhir |
+
+## 7.3 Verifikasi ulang (26 November 2026)
+
+Seluruh suite dijalankan ulang (`npm test`: 86 test, 71 lulus, 15 gagal, 163,7 detik) dan insiden
+yang tidak tercakup test otomatis diukur langsung pada peramban. Daftar kegagalan identik dengan
+eksekusi 20 November 2026, sehingga **tidak ada insiden yang berubah status**: ke-18 insiden masih
+terjadi pada deployment produksi per 26 November 2026.
+
+| Insiden | Status | Bukti verifikasi ulang |
+|---|---|---|
+| INC-01 | Masih terjadi | TC-WB-01 gagal; `MT-BB-01.h1` = 2 elemen (`qa-evidence/measurements.json`) |
+| INC-02 | Masih terjadi | TC-WB-06 dan TC-GB-17 gagal |
+| INC-03 | Masih terjadi | TC-WB-07 gagal (`lang` bukan `id`) |
+| INC-04 | Masih terjadi | TC-WB-02 gagal (heading melompat `h1 → h3`) |
+| INC-05 | Masih terjadi | TC-WB-05 gagal; `MT-BB-06.requiredFields` = 0 |
+| INC-06 | Masih terjadi | TC-NF-08 gagal; `reports/metrics/axe-*.json` |
+| INC-07 | Masih terjadi | TC-GB-02 gagal; `MT-GB-01` (header keamanan tidak ada) |
+| INC-08 | Masih terjadi | TC-GB-06 gagal (HTTP tanpa pengalihan ke HTTPS) |
+| INC-09 | Masih terjadi | TC-GB-07 gagal; `MT-GB-02.robots` = `null` |
+| INC-10 | Masih terjadi | TC-GB-18 gagal; `MT-BB-05.robotsMeta` = `null` |
+| INC-11 | Masih terjadi | TC-GB-13 gagal (canonical hilang pada `/products`, `/artikel`) |
+| INC-12 | Masih terjadi | TC-GB-03 gagal (`charset` tidak ada di header) |
+| INC-13 | Masih terjadi | TC-BB-23 gagal; `MT-BB-07.hasHargaText` = `false` untuk 5 kartu |
+| INC-14 | Masih terjadi | TC-BB-27 gagal (`/paket-umroh`, `/kontak` → 404) |
+| INC-15 | Masih terjadi | Pengukuran DOM `/products`: 0 tautan `a[href^="/product/"]`, 11 `<button>` |
+| INC-16 | Masih terjadi | Pengukuran DOM footer: 20 tautan, 11 di antaranya `href="#"` |
+| INC-17 | Masih terjadi | `MT-BB-06.invalidFields` = 0, `requiredFields` = 0 |
+| INC-18 | Masih terjadi | 2 permintaan `base.js` YouTube pada beranda (pengamatan jaringan 26 Nov 2026) |
+
+Catatan: INC-18 sebelumnya dirujuk ke `reports/metrics/js-coverage.json`; berkas itu dihasilkan
+ulang pada eksekusi 26 November dan tidak lagi memuat entri `base.js`, sehingga buktinya diganti
+dengan pengamatan jaringan langsung.
