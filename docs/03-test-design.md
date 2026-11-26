@@ -22,7 +22,7 @@ ISO/IEC/IEEE 29119-5:2024 (keyword-driven).
 |---|---|---|---|
 | Beranda & hero | `/` | TC-BB-01…08, 14, 15, 16 | MT-BB-01, MT-BB-03 |
 | Navigasi & footer | semua | TC-BB-09…13, 27 | MT-BB-02, MT-BB-05 |
-| Paket perjalanan | `/products`, `/product/*` | TC-BB-17, 23, 24, 25 | MT-BB-03 |
+| Paket perjalanan | `/products`, `/product/*` | TC-BB-17, 23, 24, 25 | MT-BB-03, MT-BB-07 |
 | Cek reservasi | `/` (kartu reservasi) | TC-BB-20…22 | MT-BB-04 |
 | Artikel | `/artikel`, `/artikel/*` | TC-BB-18, 26 | — |
 | Galeri & testimoni | `/galeri`, `/testimonials` | TC-BB-32…34 | — |
@@ -143,6 +143,7 @@ ISO/IEC/IEEE 29119-5:2024 (keyword-driven).
 | MT-BB-04 | Black box | Cek reservasi dengan kode `TQW-9999-999999` | `qa-evidence/MT-BB-04/` |
 | MT-BB-05 | Black box | Akses URL tidak dikenal | `qa-evidence/MT-BB-05/` |
 | MT-BB-06 | Black box | Submit formulir agen kosong | `qa-evidence/MT-BB-06/` |
+| MT-BB-07 | Black box | Buka `/products`, hitung kartu paket dan kemunculan teks harga | `qa-evidence/MT-BB-07/`, `qa-evidence/measurements.json` |
 | MT-WB-01 | White box | Inspeksi `head`: jumlah `<title>`, `<h1>`, `lang`, canonical | `reports/results.json` (TC-WB-01/06/07), `qa-evidence/measurements.json` |
 | MT-WB-02 | White box | Inspeksi label, `alt`, dan `role` kontrol formulir | `reports/results.json` (TC-WB-05), `reports/metrics/axe-beranda.json` |
 | MT-GB-01 | Grey box | Inspeksi header HTTP, robots.txt, sitemap.xml | `reports/results.json` (TC-GB-02/03/06) |
