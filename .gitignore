@@ -2,7 +2,9 @@
 node_modules/
 
 # Artefak eksekusi Playwright (dapat dibuat ulang dengan `npm test`)
-reports/html/
+# Laporan HTML disimpan sebagai arsip eksekusi; hanya berkas utama yang masuk repo
+reports/html/*
+!reports/html/index.html
 reports/artifacts/
 test-results/
 playwright-report/

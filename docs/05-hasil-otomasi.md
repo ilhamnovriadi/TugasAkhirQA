@@ -2,11 +2,11 @@
 
 Dihasilkan otomatis oleh `scripts/summarize.mjs` dari `reports/results.json`.
 
-- Tanggal eksekusi: 2026-11-20
+- Tanggal eksekusi: 2026-11-26
 - Perintah: `npm test` (Playwright, Chromium headless, 2 worker)
 - Total test case otomatis: **86**
 - Lulus: **71** | Gagal: **15** | Tingkat kelulusan: **82.6%**
-- Total durasi eksekusi: 140.7 detik
+- Total durasi eksekusi: 163.7 detik
 
 ## 5.1 Rekapitulasi per berkas uji
 
@@ -33,92 +33,92 @@ Dihasilkan otomatis oleh `scripts/summarize.mjs` dari `reports/results.json`.
 
 | # | Test case | Berkas | Status | Durasi (ms) |
 |---:|---|---|---|---:|
-| 1 | TC-BB-01 Beranda mengembalikan 200 dan menampilkan identitas halaman | `01-beranda.spec.ts` | ✅ Lulus | 594 |
-| 2 | TC-BB-02 Hero menampilkan dua CTA utama | `01-beranda.spec.ts` | ✅ Lulus | 546 |
-| 3 | TC-BB-03 Enam nilai jual layanan tampil | `01-beranda.spec.ts` | ✅ Lulus | 592 |
-| 4 | TC-BB-04 Slider paket menampilkan kartu, harga, dan tombol detail | `01-beranda.spec.ts` | ✅ Lulus | 814 |
-| 5 | TC-BB-05 Tombol "Lihat Semua Paket" membuka halaman paket | `01-beranda.spec.ts` | ✅ Lulus | 1292 |
-| 6 | TC-BB-06 Bagian galeri, testimoni, dan artikel beranda tampil | `01-beranda.spec.ts` | ✅ Lulus | 506 |
-| 7 | TC-BB-07 Footer menampilkan kontak dan tautan legal | `01-beranda.spec.ts` | ✅ Lulus | 563 |
-| 8 | TC-BB-08 Tidak ada error runtime JavaScript saat beranda dimuat | `01-beranda.spec.ts` | ✅ Lulus | 2381 |
-| 9 | TC-BB-09 Header memiliki logo dan navigasi utama yang dapat diakses | `02-navigasi.spec.ts` | ✅ Lulus | 585 |
-| 10 | TC-BB-10 Menu navigasi mobile dapat dibuka dan memuat tautan utama | `02-navigasi.spec.ts` | ✅ Lulus | 624 |
-| 11 | TC-BB-11 Tautan legal footer membuka halaman yang benar | `02-navigasi.spec.ts` | ✅ Lulus | 686 |
-| 12 | TC-BB-12 Setiap halaman dalam cakupan dapat dibuka dan punya H1 | `02-navigasi.spec.ts` | ✅ Lulus | 2754 |
-| 13 | TC-BB-13 URL tidak dikenal menampilkan halaman 404 dengan status 404 | `02-navigasi.spec.ts` | ✅ Lulus | 597 |
-| 14 | TC-BB-14 Pencarian hero: kategori paket dapat dipilih | `03-pencarian.spec.ts` | ✅ Lulus | 1183 |
-| 15 | TC-BB-15 Pencarian hero: bulan keberangkatan dapat dipilih | `03-pencarian.spec.ts` | ✅ Lulus | 1398 |
-| 16 | TC-BB-16 Tombol "Cari Paket" membawa pengguna ke daftar paket | `03-pencarian.spec.ts` | ✅ Lulus | 1348 |
-| 17 | TC-BB-17 Filter teks pada halaman paket menyaring kartu | `03-pencarian.spec.ts` | ✅ Lulus | 1962 |
-| 18 | TC-BB-18 Pencarian artikel menyaring daftar artikel | `03-pencarian.spec.ts` | ✅ Lulus | 1647 |
-| 19 | TC-BB-19 Pencarian agen resmi menyaring daftar agen | `03-pencarian.spec.ts` | ✅ Lulus | 1715 |
-| 20 | TC-BB-20 Cek reservasi dengan kode kosong tidak memproses permintaan | `04-reservasi.spec.ts` | ✅ Lulus | 2068 |
-| 21 | TC-BB-21 Cek reservasi dengan kode tidak valid menampilkan pesan, bukan error server | `04-reservasi.spec.ts` | ✅ Lulus | 3659 |
-| 22 | TC-BB-22 Kolom kode reservasi menerima input dan mempertahankan nilainya | `04-reservasi.spec.ts` | ✅ Lulus | 472 |
-| 23 | TC-BB-23 Halaman paket menampilkan kartu paket dengan harga | `05-paket-detail.spec.ts` | ❌ Gagal | 11308 |
-| 24 | TC-BB-24 Detail paket dapat dibuka dari kartu dan memuat informasi utama | `05-paket-detail.spec.ts` | ✅ Lulus | 1999 |
-| 25 | TC-BB-25 Detail paket menampilkan fasilitas dan itinerary | `05-paket-detail.spec.ts` | ✅ Lulus | 685 |
-| 26 | TC-BB-26 Halaman artikel membuka detail artikel | `05-paket-detail.spec.ts` | ✅ Lulus | 873 |
-| 27 | TC-BB-27 Tidak ada tautan internal yang rusak pada halaman cakupan | `05-paket-detail.spec.ts` | ❌ Gagal | 3674 |
-| 28 | TC-BB-28 Formulir pendaftaran agen menampilkan field wajib | `06-daftar-agen.spec.ts` | ✅ Lulus | 396 |
-| 29 | TC-BB-29 Submit kosong tidak mengirim data dan menampilkan validasi | `06-daftar-agen.spec.ts` | ✅ Lulus | 1881 |
-| 30 | TC-BB-30 Email tidak valid ditolak oleh validasi | `06-daftar-agen.spec.ts` | ✅ Lulus | 399 |
-| 31 | TC-BB-31 Field email menggunakan tipe input yang tepat | `06-daftar-agen.spec.ts` | ✅ Lulus | 348 |
-| 32 | TC-BB-32 Galeri menampilkan gambar yang benar-benar termuat | `07-konten-media.spec.ts` | ✅ Lulus | 526 |
-| 33 | TC-BB-33 Halaman testimoni menampilkan kartu testimoni jamaah | `07-konten-media.spec.ts` | ✅ Lulus | 1088 |
-| 34 | TC-BB-34 Testimoni beranda menampilkan nama jamaah | `07-konten-media.spec.ts` | ✅ Lulus | 2979 |
-| 35 | TC-BB-35 Halaman profil memuat legalitas perusahaan | `07-konten-media.spec.ts` | ✅ Lulus | 482 |
-| 36 | TC-WB-01 Setiap halaman memiliki tepat satu H1 | `01-struktur-dom.spec.ts` | ❌ Gagal | 2009 |
-| 37 | TC-WB-02 Hierarki heading tidak melompati level | `01-struktur-dom.spec.ts` | ❌ Gagal | 1610 |
-| 38 | TC-WB-03 Tidak ada atribut id duplikat di DOM | `01-struktur-dom.spec.ts` | ✅ Lulus | 2101 |
-| 39 | TC-WB-04 Semua elemen img memiliki atribut alt | `01-struktur-dom.spec.ts` | ✅ Lulus | 2146 |
-| 40 | TC-WB-05 Semua kontrol formulir memiliki label yang terasosiasi | `01-struktur-dom.spec.ts` | ❌ Gagal | 1826 |
-| 41 | TC-WB-06 Dokumen hanya memiliki satu elemen title | `01-struktur-dom.spec.ts` | ❌ Gagal | 957 |
-| 42 | TC-WB-07 Atribut lang dokumen terisi dengan kode bahasa valid | `01-struktur-dom.spec.ts` | ❌ Gagal | 819 |
-| 43 | TC-WB-08 Jumlah node DOM dalam anggaran performa | `01-struktur-dom.spec.ts` | ✅ Lulus | 468 |
-| 44 | TC-WB-09 Bundel CSS dan JS tidak memuat berkas yang gagal (4xx/5xx) | `01-struktur-dom.spec.ts` | ✅ Lulus | 1854 |
-| 45 | TC-WB-10 Cakupan eksekusi bundel JavaScript terukur | `02-kode-klien.spec.ts` | ✅ Lulus | 4599 |
-| 46 | TC-WB-11 Bundel CSS yang dikirim berada di bawah anggaran | `02-kode-klien.spec.ts` | ✅ Lulus | 495 |
-| 47 | TC-WB-12 Tidak ada error konsol pada tiga halaman utama | `02-kode-klien.spec.ts` | ✅ Lulus | 3602 |
-| 48 | TC-WB-13 Hidrasi SvelteKit selesai dan interaksi berjalan | `02-kode-klien.spec.ts` | ✅ Lulus | 463 |
-| 49 | TC-GB-01 Semua halaman cakupan merespons 200 | `01-http-header.spec.ts` | ✅ Lulus | 1557 |
-| 50 | TC-GB-02 Header keamanan dasar tersedia | `01-http-header.spec.ts` | ❌ Gagal | 207 |
-| 51 | TC-GB-03 Content-Type HTML menyertakan charset | `01-http-header.spec.ts` | ❌ Gagal | 169 |
-| 52 | TC-GB-04 Ukuran dokumen HTML di bawah anggaran | `01-http-header.spec.ts` | ✅ Lulus | 163 |
-| 53 | TC-GB-05 Aset statis memakai cache yang sesuai | `01-http-header.spec.ts` | ✅ Lulus | 98 |
-| 54 | TC-GB-06 HTTP dialihkan ke HTTPS dan www dinormalisasi | `01-http-header.spec.ts` | ❌ Gagal | 233 |
-| 55 | TC-GB-07 Halaman administrasi tidak dapat diindeks mesin pencari | `01-http-header.spec.ts` | ❌ Gagal | 15951 |
-| 56 | TC-GB-08 Tidak ada direktori API publik yang dapat diakses tanpa izin | `01-http-header.spec.ts` | ✅ Lulus | 182 |
-| 57 | TC-GB-09 Respons HTML dikompresi saat klien mendukung | `01-http-header.spec.ts` | ✅ Lulus | 130 |
-| 58 | TC-GB-10 Waktu respons server (TTFB) dalam batas | `01-http-header.spec.ts` | ✅ Lulus | 371 |
-| 59 | TC-GB-11 robots.txt memuat aturan dasar dan menunjuk sitemap | `02-seo-sitemap.spec.ts` | ✅ Lulus | 135 |
-| 60 | TC-GB-12 sitemap.xml valid, unik, dan seluruh URL dapat diakses | `02-seo-sitemap.spec.ts` | ✅ Lulus | 124 |
-| 61 | TC-GB-13 Canonical sesuai URL dan hanya satu | `02-seo-sitemap.spec.ts` | ❌ Gagal | 1022 |
-| 62 | TC-GB-14 Meta description unik dan panjangnya wajar | `02-seo-sitemap.spec.ts` | ✅ Lulus | 1500 |
-| 63 | TC-GB-15 Open Graph lengkap dan gambar OG dapat diakses | `02-seo-sitemap.spec.ts` | ✅ Lulus | 768 |
-| 64 | TC-GB-16 Data terstruktur JSON-LD valid | `02-seo-sitemap.spec.ts` | ✅ Lulus | 447 |
-| 65 | TC-GB-17 Judul halaman berbeda antar halaman (HTML dari server) | `02-seo-sitemap.spec.ts` | ❌ Gagal | 678 |
-| 66 | TC-GB-18 Halaman 404 tidak diindeks dan mengembalikan status benar | `02-seo-sitemap.spec.ts` | ❌ Gagal | 15631 |
-| 67 | TC-GB-19 Tidak ada mixed content pada halaman HTTPS | `03-keamanan-dasar.spec.ts` | ✅ Lulus | 1894 |
-| 68 | TC-GB-20 Cookie yang dikirim memakai atribut Secure | `03-keamanan-dasar.spec.ts` | ✅ Lulus | 180 |
-| 69 | TC-GB-21 Halaman admin tidak membocorkan sesi atau kredensial di HTML | `03-keamanan-dasar.spec.ts` | ✅ Lulus | 532 |
-| 70 | TC-GB-22 Panel admin tidak dapat diakses tanpa autentikasi | `03-keamanan-dasar.spec.ts` | ✅ Lulus | 975 |
-| 71 | TC-GB-23 Tidak ada kebocoran stack trace pada respons error | `03-keamanan-dasar.spec.ts` | ✅ Lulus | 583 |
-| 72 | TC-NF-01 LCP dan TTFB beranda dalam anggaran | `01-kinerja.spec.ts` | ✅ Lulus | 2014 |
-| 73 | TC-NF-02 Berat halaman dan jumlah request dalam anggaran | `01-kinerja.spec.ts` | ✅ Lulus | 2455 |
-| 74 | TC-NF-03 Halaman paket dan artikel termuat di bawah 5 detik | `01-kinerja.spec.ts` | ✅ Lulus | 1163 |
-| 75 | TC-NF-04 Tidak ada overflow horizontal pada mobile (375px) | `02-responsif.spec.ts` | ✅ Lulus | 1571 |
-| 76 | TC-NF-04 Tidak ada overflow horizontal pada tablet (768px) | `02-responsif.spec.ts` | ✅ Lulus | 1279 |
-| 77 | TC-NF-04 Tidak ada overflow horizontal pada desktop (1280px) | `02-responsif.spec.ts` | ✅ Lulus | 1358 |
-| 78 | TC-NF-04 Tidak ada overflow horizontal pada wide (1920px) | `02-responsif.spec.ts` | ✅ Lulus | 1621 |
-| 79 | TC-NF-05 Tombol menu mobile memiliki target sentuh memadai | `02-responsif.spec.ts` | ✅ Lulus | 550 |
-| 80 | TC-NF-06 Judul hero tetap terbaca pada layar mobile | `02-responsif.spec.ts` | ✅ Lulus | 466 |
-| 81 | TC-NF-07 Tata letak tidak rusak saat zoom 200% (viewport 640px) | `02-responsif.spec.ts` | ✅ Lulus | 405 |
-| 82 | TC-NF-08 Pemindaian axe beranda: tidak ada pelanggaran critical | `03-aksesibilitas.spec.ts` | ❌ Gagal | 2746 |
-| 83 | TC-NF-08 Pemindaian axe products: tidak ada pelanggaran critical | `03-aksesibilitas.spec.ts` | ✅ Lulus | 1540 |
-| 84 | TC-NF-08 Pemindaian axe daftar-agen: tidak ada pelanggaran critical | `03-aksesibilitas.spec.ts` | ✅ Lulus | 1372 |
-| 85 | TC-NF-09 Skip link tersedia dan berfungsi | `03-aksesibilitas.spec.ts` | ✅ Lulus | 495 |
-| 86 | TC-NF-10 Fokus keyboard terlihat pada elemen interaktif | `03-aksesibilitas.spec.ts` | ✅ Lulus | 522 |
+| 1 | TC-BB-01 Beranda mengembalikan 200 dan menampilkan identitas halaman | `01-beranda.spec.ts` | ✅ Lulus | 972 |
+| 2 | TC-BB-02 Hero menampilkan dua CTA utama | `01-beranda.spec.ts` | ✅ Lulus | 697 |
+| 3 | TC-BB-03 Enam nilai jual layanan tampil | `01-beranda.spec.ts` | ✅ Lulus | 942 |
+| 4 | TC-BB-04 Slider paket menampilkan kartu, harga, dan tombol detail | `01-beranda.spec.ts` | ✅ Lulus | 1249 |
+| 5 | TC-BB-05 Tombol "Lihat Semua Paket" membuka halaman paket | `01-beranda.spec.ts` | ✅ Lulus | 1596 |
+| 6 | TC-BB-06 Bagian galeri, testimoni, dan artikel beranda tampil | `01-beranda.spec.ts` | ✅ Lulus | 673 |
+| 7 | TC-BB-07 Footer menampilkan kontak dan tautan legal | `01-beranda.spec.ts` | ✅ Lulus | 655 |
+| 8 | TC-BB-08 Tidak ada error runtime JavaScript saat beranda dimuat | `01-beranda.spec.ts` | ✅ Lulus | 2884 |
+| 9 | TC-BB-09 Header memiliki logo dan navigasi utama yang dapat diakses | `02-navigasi.spec.ts` | ✅ Lulus | 964 |
+| 10 | TC-BB-10 Menu navigasi mobile dapat dibuka dan memuat tautan utama | `02-navigasi.spec.ts` | ✅ Lulus | 766 |
+| 11 | TC-BB-11 Tautan legal footer membuka halaman yang benar | `02-navigasi.spec.ts` | ✅ Lulus | 1993 |
+| 12 | TC-BB-12 Setiap halaman dalam cakupan dapat dibuka dan punya H1 | `02-navigasi.spec.ts` | ✅ Lulus | 3682 |
+| 13 | TC-BB-13 URL tidak dikenal menampilkan halaman 404 dengan status 404 | `02-navigasi.spec.ts` | ✅ Lulus | 673 |
+| 14 | TC-BB-14 Pencarian hero: kategori paket dapat dipilih | `03-pencarian.spec.ts` | ✅ Lulus | 1355 |
+| 15 | TC-BB-15 Pencarian hero: bulan keberangkatan dapat dipilih | `03-pencarian.spec.ts` | ✅ Lulus | 1339 |
+| 16 | TC-BB-16 Tombol "Cari Paket" membawa pengguna ke daftar paket | `03-pencarian.spec.ts` | ✅ Lulus | 1673 |
+| 17 | TC-BB-17 Filter teks pada halaman paket menyaring kartu | `03-pencarian.spec.ts` | ✅ Lulus | 2724 |
+| 18 | TC-BB-18 Pencarian artikel menyaring daftar artikel | `03-pencarian.spec.ts` | ✅ Lulus | 1723 |
+| 19 | TC-BB-19 Pencarian agen resmi menyaring daftar agen | `03-pencarian.spec.ts` | ✅ Lulus | 1863 |
+| 20 | TC-BB-20 Cek reservasi dengan kode kosong tidak memproses permintaan | `04-reservasi.spec.ts` | ✅ Lulus | 2483 |
+| 21 | TC-BB-21 Cek reservasi dengan kode tidak valid menampilkan pesan, bukan error server | `04-reservasi.spec.ts` | ✅ Lulus | 3614 |
+| 22 | TC-BB-22 Kolom kode reservasi menerima input dan mempertahankan nilainya | `04-reservasi.spec.ts` | ✅ Lulus | 450 |
+| 23 | TC-BB-23 Halaman paket menampilkan kartu paket dengan harga | `05-paket-detail.spec.ts` | ❌ Gagal | 11392 |
+| 24 | TC-BB-24 Detail paket dapat dibuka dari kartu dan memuat informasi utama | `05-paket-detail.spec.ts` | ✅ Lulus | 2033 |
+| 25 | TC-BB-25 Detail paket menampilkan fasilitas dan itinerary | `05-paket-detail.spec.ts` | ✅ Lulus | 732 |
+| 26 | TC-BB-26 Halaman artikel membuka detail artikel | `05-paket-detail.spec.ts` | ✅ Lulus | 694 |
+| 27 | TC-BB-27 Tidak ada tautan internal yang rusak pada halaman cakupan | `05-paket-detail.spec.ts` | ❌ Gagal | 5040 |
+| 28 | TC-BB-28 Formulir pendaftaran agen menampilkan field wajib | `06-daftar-agen.spec.ts` | ✅ Lulus | 377 |
+| 29 | TC-BB-29 Submit kosong tidak mengirim data dan menampilkan validasi | `06-daftar-agen.spec.ts` | ✅ Lulus | 1925 |
+| 30 | TC-BB-30 Email tidak valid ditolak oleh validasi | `06-daftar-agen.spec.ts` | ✅ Lulus | 465 |
+| 31 | TC-BB-31 Field email menggunakan tipe input yang tepat | `06-daftar-agen.spec.ts` | ✅ Lulus | 427 |
+| 32 | TC-BB-32 Galeri menampilkan gambar yang benar-benar termuat | `07-konten-media.spec.ts` | ✅ Lulus | 398 |
+| 33 | TC-BB-33 Halaman testimoni menampilkan kartu testimoni jamaah | `07-konten-media.spec.ts` | ✅ Lulus | 1126 |
+| 34 | TC-BB-34 Testimoni beranda menampilkan nama jamaah | `07-konten-media.spec.ts` | ✅ Lulus | 3360 |
+| 35 | TC-BB-35 Halaman profil memuat legalitas perusahaan | `07-konten-media.spec.ts` | ✅ Lulus | 642 |
+| 36 | TC-WB-01 Setiap halaman memiliki tepat satu H1 | `01-struktur-dom.spec.ts` | ❌ Gagal | 3182 |
+| 37 | TC-WB-02 Hierarki heading tidak melompati level | `01-struktur-dom.spec.ts` | ❌ Gagal | 1979 |
+| 38 | TC-WB-03 Tidak ada atribut id duplikat di DOM | `01-struktur-dom.spec.ts` | ✅ Lulus | 2950 |
+| 39 | TC-WB-04 Semua elemen img memiliki atribut alt | `01-struktur-dom.spec.ts` | ✅ Lulus | 3162 |
+| 40 | TC-WB-05 Semua kontrol formulir memiliki label yang terasosiasi | `01-struktur-dom.spec.ts` | ❌ Gagal | 2305 |
+| 41 | TC-WB-06 Dokumen hanya memiliki satu elemen title | `01-struktur-dom.spec.ts` | ❌ Gagal | 966 |
+| 42 | TC-WB-07 Atribut lang dokumen terisi dengan kode bahasa valid | `01-struktur-dom.spec.ts` | ❌ Gagal | 1641 |
+| 43 | TC-WB-08 Jumlah node DOM dalam anggaran performa | `01-struktur-dom.spec.ts` | ✅ Lulus | 511 |
+| 44 | TC-WB-09 Bundel CSS dan JS tidak memuat berkas yang gagal (4xx/5xx) | `01-struktur-dom.spec.ts` | ✅ Lulus | 2380 |
+| 45 | TC-WB-10 Cakupan eksekusi bundel JavaScript terukur | `02-kode-klien.spec.ts` | ✅ Lulus | 5391 |
+| 46 | TC-WB-11 Bundel CSS yang dikirim berada di bawah anggaran | `02-kode-klien.spec.ts` | ✅ Lulus | 508 |
+| 47 | TC-WB-12 Tidak ada error konsol pada tiga halaman utama | `02-kode-klien.spec.ts` | ✅ Lulus | 5484 |
+| 48 | TC-WB-13 Hidrasi SvelteKit selesai dan interaksi berjalan | `02-kode-klien.spec.ts` | ✅ Lulus | 502 |
+| 49 | TC-GB-01 Semua halaman cakupan merespons 200 | `01-http-header.spec.ts` | ✅ Lulus | 1823 |
+| 50 | TC-GB-02 Header keamanan dasar tersedia | `01-http-header.spec.ts` | ❌ Gagal | 162 |
+| 51 | TC-GB-03 Content-Type HTML menyertakan charset | `01-http-header.spec.ts` | ❌ Gagal | 176 |
+| 52 | TC-GB-04 Ukuran dokumen HTML di bawah anggaran | `01-http-header.spec.ts` | ✅ Lulus | 195 |
+| 53 | TC-GB-05 Aset statis memakai cache yang sesuai | `01-http-header.spec.ts` | ✅ Lulus | 152 |
+| 54 | TC-GB-06 HTTP dialihkan ke HTTPS dan www dinormalisasi | `01-http-header.spec.ts` | ❌ Gagal | 322 |
+| 55 | TC-GB-07 Halaman administrasi tidak dapat diindeks mesin pencari | `01-http-header.spec.ts` | ❌ Gagal | 16069 |
+| 56 | TC-GB-08 Tidak ada direktori API publik yang dapat diakses tanpa izin | `01-http-header.spec.ts` | ✅ Lulus | 164 |
+| 57 | TC-GB-09 Respons HTML dikompresi saat klien mendukung | `01-http-header.spec.ts` | ✅ Lulus | 203 |
+| 58 | TC-GB-10 Waktu respons server (TTFB) dalam batas | `01-http-header.spec.ts` | ✅ Lulus | 558 |
+| 59 | TC-GB-11 robots.txt memuat aturan dasar dan menunjuk sitemap | `02-seo-sitemap.spec.ts` | ✅ Lulus | 163 |
+| 60 | TC-GB-12 sitemap.xml valid, unik, dan seluruh URL dapat diakses | `02-seo-sitemap.spec.ts` | ✅ Lulus | 128 |
+| 61 | TC-GB-13 Canonical sesuai URL dan hanya satu | `02-seo-sitemap.spec.ts` | ❌ Gagal | 1623 |
+| 62 | TC-GB-14 Meta description unik dan panjangnya wajar | `02-seo-sitemap.spec.ts` | ✅ Lulus | 1966 |
+| 63 | TC-GB-15 Open Graph lengkap dan gambar OG dapat diakses | `02-seo-sitemap.spec.ts` | ✅ Lulus | 1038 |
+| 64 | TC-GB-16 Data terstruktur JSON-LD valid | `02-seo-sitemap.spec.ts` | ✅ Lulus | 552 |
+| 65 | TC-GB-17 Judul halaman berbeda antar halaman (HTML dari server) | `02-seo-sitemap.spec.ts` | ❌ Gagal | 781 |
+| 66 | TC-GB-18 Halaman 404 tidak diindeks dan mengembalikan status benar | `02-seo-sitemap.spec.ts` | ❌ Gagal | 15861 |
+| 67 | TC-GB-19 Tidak ada mixed content pada halaman HTTPS | `03-keamanan-dasar.spec.ts` | ✅ Lulus | 3210 |
+| 68 | TC-GB-20 Cookie yang dikirim memakai atribut Secure | `03-keamanan-dasar.spec.ts` | ✅ Lulus | 426 |
+| 69 | TC-GB-21 Halaman admin tidak membocorkan sesi atau kredensial di HTML | `03-keamanan-dasar.spec.ts` | ✅ Lulus | 576 |
+| 70 | TC-GB-22 Panel admin tidak dapat diakses tanpa autentikasi | `03-keamanan-dasar.spec.ts` | ✅ Lulus | 1112 |
+| 71 | TC-GB-23 Tidak ada kebocoran stack trace pada respons error | `03-keamanan-dasar.spec.ts` | ✅ Lulus | 711 |
+| 72 | TC-NF-01 LCP dan TTFB beranda dalam anggaran | `01-kinerja.spec.ts` | ✅ Lulus | 2034 |
+| 73 | TC-NF-02 Berat halaman dan jumlah request dalam anggaran | `01-kinerja.spec.ts` | ✅ Lulus | 2427 |
+| 74 | TC-NF-03 Halaman paket dan artikel termuat di bawah 5 detik | `01-kinerja.spec.ts` | ✅ Lulus | 1468 |
+| 75 | TC-NF-04 Tidak ada overflow horizontal pada mobile (375px) | `02-responsif.spec.ts` | ✅ Lulus | 1322 |
+| 76 | TC-NF-04 Tidak ada overflow horizontal pada tablet (768px) | `02-responsif.spec.ts` | ✅ Lulus | 1321 |
+| 77 | TC-NF-04 Tidak ada overflow horizontal pada desktop (1280px) | `02-responsif.spec.ts` | ✅ Lulus | 1407 |
+| 78 | TC-NF-04 Tidak ada overflow horizontal pada wide (1920px) | `02-responsif.spec.ts` | ✅ Lulus | 1614 |
+| 79 | TC-NF-05 Tombol menu mobile memiliki target sentuh memadai | `02-responsif.spec.ts` | ✅ Lulus | 417 |
+| 80 | TC-NF-06 Judul hero tetap terbaca pada layar mobile | `02-responsif.spec.ts` | ✅ Lulus | 393 |
+| 81 | TC-NF-07 Tata letak tidak rusak saat zoom 200% (viewport 640px) | `02-responsif.spec.ts` | ✅ Lulus | 376 |
+| 82 | TC-NF-08 Pemindaian axe beranda: tidak ada pelanggaran critical | `03-aksesibilitas.spec.ts` | ❌ Gagal | 4445 |
+| 83 | TC-NF-08 Pemindaian axe products: tidak ada pelanggaran critical | `03-aksesibilitas.spec.ts` | ✅ Lulus | 1859 |
+| 84 | TC-NF-08 Pemindaian axe daftar-agen: tidak ada pelanggaran critical | `03-aksesibilitas.spec.ts` | ✅ Lulus | 1210 |
+| 85 | TC-NF-09 Skip link tersedia dan berfungsi | `03-aksesibilitas.spec.ts` | ✅ Lulus | 474 |
+| 86 | TC-NF-10 Fokus keyboard terlihat pada elemen interaktif | `03-aksesibilitas.spec.ts` | ✅ Lulus | 469 |
 
 ## 5.3 Test case yang gagal (temuan)
 
@@ -219,12 +219,12 @@ Dihasilkan otomatis oleh `scripts/summarize.mjs` dari `reports/results.json`.
     "totalBytes": 10983
   },
   "js-coverage": {
-    "filesTotal": 99,
+    "filesTotal": 96,
     "filesOwn": 58,
     "ownTotalBytes": 484205,
     "ownTotalFunctions": 1937,
-    "ownFunctionsCalled": 1341,
-    "ownFunctionCoveragePercent": 69.23,
+    "ownFunctionsCalled": 1340,
+    "ownFunctionCoveragePercent": 69.18,
     "top": [
       {
         "url": "/_app/immutable/chunks/D8J_gqhc.js",
@@ -262,8 +262,8 @@ Dihasilkan otomatis oleh `scripts/summarize.mjs` dari `reports/results.json`.
         "url": "/_app/immutable/chunks/BBF0KuLD.js",
         "bytes": 35252,
         "functions": 208,
-        "functionsCalled": 123,
-        "functionCoveragePercent": 59.1,
+        "functionsCalled": 122,
+        "functionCoveragePercent": 58.7,
         "byteRangesExecuted": 35252
       },
       {
@@ -349,10 +349,10 @@ Dihasilkan otomatis oleh `scripts/summarize.mjs` dari `reports/results.json`.
     ]
   },
   "kinerja-beranda": {
-    "lcp": 400,
-    "ttfb": 185,
-    "dcl": 346,
-    "load": 350
+    "lcp": 348,
+    "ttfb": 150,
+    "dcl": 266,
+    "load": 307
   },
   "overflow-1280": {
     "scrollWidth": 1280,

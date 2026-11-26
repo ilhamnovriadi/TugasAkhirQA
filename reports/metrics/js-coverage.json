@@ -1,10 +1,10 @@
 {
-  "filesTotal": 99,
+  "filesTotal": 96,
   "filesOwn": 58,
   "ownTotalBytes": 484205,
   "ownTotalFunctions": 1937,
-  "ownFunctionsCalled": 1341,
-  "ownFunctionCoveragePercent": 69.23,
+  "ownFunctionsCalled": 1340,
+  "ownFunctionCoveragePercent": 69.18,
   "top": [
     {
       "url": "/_app/immutable/chunks/D8J_gqhc.js",
@@ -42,8 +42,8 @@
       "url": "/_app/immutable/chunks/BBF0KuLD.js",
       "bytes": 35252,
       "functions": 208,
-      "functionsCalled": 123,
-      "functionCoveragePercent": 59.1,
+      "functionsCalled": 122,
+      "functionCoveragePercent": 58.7,
       "byteRangesExecuted": 35252
     },
     {

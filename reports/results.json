@@ -3,9 +3,7 @@
     "argv": [
       "/Users/ideku-device/.nvm/versions/node/v24.15.0/bin/node",
       "/Volumes/IDEKU/Learning/TugasAkhirQA/node_modules/.bin/playwright",
-      "test",
-      "--list",
-      "tests/04-nonfungsional"
+      "test"
     ],
     "configFile": "/Volumes/IDEKU/Learning/TugasAkhirQA/playwright.config.ts",
     "rootDir": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests",
@@ -18,14 +16,18 @@
     "grep": {},
     "grepInvert": null,
     "maxFailures": 0,
-    "metadata": {},
+    "metadata": {
+      "actualWorkers": 2
+    },
     "preserveOutput": "always",
     "projects": [
       {
         "outputDir": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {},
+        "metadata": {
+          "actualWorkers": 2
+        },
         "id": "chromium-desktop",
         "name": "chromium-desktop",
         "testDir": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests",
@@ -43,7 +45,9 @@
         "outputDir": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {},
+        "metadata": {
+          "actualWorkers": 2
+        },
         "name": "chromium-desktop",
         "testDir": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests",
         "snapshotDir": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests",
@@ -111,6 +115,3169 @@
   },
   "suites": [
     {
+      "title": "01-blackbox/01-beranda.spec.ts",
+      "file": "01-blackbox/01-beranda.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "BB — Beranda (black box, fungsional)",
+          "file": "01-blackbox/01-beranda.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-BB-01 Beranda mengembalikan 200 dan menampilkan identitas halaman",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 972,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:26.119Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9196684c7b18710447ac-f5a210f4a73ea381c4b1",
+              "file": "01-blackbox/01-beranda.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-02 Hero menampilkan dua CTA utama",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 697,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:27.533Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9196684c7b18710447ac-22f7ef73b496f38eb43f",
+              "file": "01-blackbox/01-beranda.spec.ts",
+              "line": 11,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-03 Enam nilai jual layanan tampil",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 942,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:28.238Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9196684c7b18710447ac-ce6d1bbe42209403660e",
+              "file": "01-blackbox/01-beranda.spec.ts",
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-04 Slider paket menampilkan kartu, harga, dan tombol detail",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1249,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:29.185Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9196684c7b18710447ac-900a58aeca9349926650",
+              "file": "01-blackbox/01-beranda.spec.ts",
+              "line": 31,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-05 Tombol \"Lihat Semua Paket\" membuka halaman paket",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1596,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:30.440Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9196684c7b18710447ac-55c9e9a013892992909c",
+              "file": "01-blackbox/01-beranda.spec.ts",
+              "line": 39,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-06 Bagian galeri, testimoni, dan artikel beranda tampil",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 673,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:32.040Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9196684c7b18710447ac-64e92f6d1c5d238d91cd",
+              "file": "01-blackbox/01-beranda.spec.ts",
+              "line": 46,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-07 Footer menampilkan kontak dan tautan legal",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 655,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:32.719Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9196684c7b18710447ac-cc0edbab7b7f430c1416",
+              "file": "01-blackbox/01-beranda.spec.ts",
+              "line": 53,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-08 Tidak ada error runtime JavaScript saat beranda dimuat",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2884,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:33.379Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9196684c7b18710447ac-7c8cbda8ab27bdeea647",
+              "file": "01-blackbox/01-beranda.spec.ts",
+              "line": 61,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "01-blackbox/02-navigasi.spec.ts",
+      "file": "01-blackbox/02-navigasi.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "BB — Navigasi & penanganan 404 (black box)",
+          "file": "01-blackbox/02-navigasi.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-BB-09 Header memiliki logo dan navigasi utama yang dapat diakses",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 964,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:26.114Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5bf1cfcfea1950d6466a-08ece5c185b29b9461e0",
+              "file": "01-blackbox/02-navigasi.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-10 Menu navigasi mobile dapat dibuka dan memuat tautan utama",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 766,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:27.525Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5bf1cfcfea1950d6466a-db645e1528d440589451",
+              "file": "01-blackbox/02-navigasi.spec.ts",
+              "line": 13,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-11 Tautan legal footer membuka halaman yang benar",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1993,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:28.297Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5bf1cfcfea1950d6466a-464dc080bf165e9cdcca",
+              "file": "01-blackbox/02-navigasi.spec.ts",
+              "line": 23,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-12 Setiap halaman dalam cakupan dapat dibuka dan punya H1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3682,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:30.295Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5bf1cfcfea1950d6466a-de16f2f39066c1ff02d4",
+              "file": "01-blackbox/02-navigasi.spec.ts",
+              "line": 33,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-13 URL tidak dikenal menampilkan halaman 404 dengan status 404",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 673,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:33.986Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5bf1cfcfea1950d6466a-d126d2f9b3c9e9b5d7d1",
+              "file": "01-blackbox/02-navigasi.spec.ts",
+              "line": 41,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "01-blackbox/03-pencarian.spec.ts",
+      "file": "01-blackbox/03-pencarian.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "BB — Pencarian & filter (black box)",
+          "file": "01-blackbox/03-pencarian.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-BB-14 Pencarian hero: kategori paket dapat dipilih",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1355,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:34.672Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3d567ff4ebe174fe5136-6deb0baec70dfebbf978",
+              "file": "01-blackbox/03-pencarian.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-15 Pencarian hero: bulan keberangkatan dapat dipilih",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1339,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:36.031Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3d567ff4ebe174fe5136-b17721c5a5d652c829ee",
+              "file": "01-blackbox/03-pencarian.spec.ts",
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-16 Tombol \"Cari Paket\" membawa pengguna ke daftar paket",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1673,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:37.379Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3d567ff4ebe174fe5136-9ec523ccb8ddfffdaa59",
+              "file": "01-blackbox/03-pencarian.spec.ts",
+              "line": 30,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-17 Filter teks pada halaman paket menyaring kartu",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2724,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:39.058Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3d567ff4ebe174fe5136-f12cc7cb1f612fb1f4d3",
+              "file": "01-blackbox/03-pencarian.spec.ts",
+              "line": 36,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-18 Pencarian artikel menyaring daftar artikel",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1723,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:41.787Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3d567ff4ebe174fe5136-d2c660a0f0879d38e8de",
+              "file": "01-blackbox/03-pencarian.spec.ts",
+              "line": 47,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-19 Pencarian agen resmi menyaring daftar agen",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1863,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:43.516Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3d567ff4ebe174fe5136-205e8493108e6c98fa83",
+              "file": "01-blackbox/03-pencarian.spec.ts",
+              "line": 59,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "01-blackbox/04-reservasi.spec.ts",
+      "file": "01-blackbox/04-reservasi.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "BB — Cek reservasi (black box)",
+          "file": "01-blackbox/04-reservasi.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-BB-20 Cek reservasi dengan kode kosong tidak memproses permintaan",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2483,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:36.290Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5b5a545297b14ad4649-0664a2d228256d727074",
+              "file": "01-blackbox/04-reservasi.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-21 Cek reservasi dengan kode tidak valid menampilkan pesan, bukan error server",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3614,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:38.839Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5b5a545297b14ad4649-2b4fdf649a4f5f8f7ce5",
+              "file": "01-blackbox/04-reservasi.spec.ts",
+              "line": 18,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-22 Kolom kode reservasi menerima input dan mempertahankan nilainya",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 450,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:42.467Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5b5a545297b14ad4649-a738258ed735024caddd",
+              "file": "01-blackbox/04-reservasi.spec.ts",
+              "line": 36,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "01-blackbox/05-paket-detail.spec.ts",
+      "file": "01-blackbox/05-paket-detail.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "BB — Daftar & detail paket (black box)",
+          "file": "01-blackbox/05-paket-detail.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-BB-23 Halaman paket menampilkan kartu paket dengan harga",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 11392,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText(/Rp\\s?[\\d.]+/).first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText(/Rp\\s?[\\d.]+/).first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText(/Rp\\s?[\\d.]+/).first()\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText(/Rp\\s?[\\d.]+/).first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText(/Rp\\s?[\\d.]+/).first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText(/Rp\\s?[\\d.]+/).first()\u001b[22m\n\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/01-blackbox/05-paket-detail.spec.ts:9:57",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/01-blackbox/05-paket-detail.spec.ts",
+                          "column": 57,
+                          "line": 9
+                        },
+                        "snippet": "   7 |     const cards = page.locator('main h3');\n   8 |     expect(await cards.count(), 'kartu paket tidak tampil').toBeGreaterThanOrEqual(3);\n>  9 |     await expect(page.getByText(/Rp\\s?[\\d.]+/).first()).toBeVisible();\n     |                                                         ^\n  10 |     await expect(page.getByText(/Paket Ditemukan/i).first()).toBeVisible();\n  11 |   });\n  12 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/01-blackbox/05-paket-detail.spec.ts",
+                            "column": 57,
+                            "line": 9
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText(/Rp\\s?[\\d.]+/).first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText(/Rp\\s?[\\d.]+/).first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText(/Rp\\s?[\\d.]+/).first()\u001b[22m\n\n\n   7 |     const cards = page.locator('main h3');\n   8 |     expect(await cards.count(), 'kartu paket tidak tampil').toBeGreaterThanOrEqual(3);\n>  9 |     await expect(page.getByText(/Rp\\s?[\\d.]+/).first()).toBeVisible();\n     |                                                         ^\n  10 |     await expect(page.getByText(/Paket Ditemukan/i).first()).toBeVisible();\n  11 |   });\n  12 |\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/01-blackbox/05-paket-detail.spec.ts:9:57"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:42.927Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/01-blackbox-05-paket-detai-a2ad5-an-kartu-paket-dengan-harga-chromium-desktop/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/01-blackbox-05-paket-detai-a2ad5-an-kartu-paket-dengan-harga-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/01-blackbox-05-paket-detai-a2ad5-an-kartu-paket-dengan-harga-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/01-blackbox/05-paket-detail.spec.ts",
+                        "column": 57,
+                        "line": 9
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "d9beb79bb7ca3170ad83-d1c4951c654fcee8b0f8",
+              "file": "01-blackbox/05-paket-detail.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-24 Detail paket dapat dibuka dari kartu dan memuat informasi utama",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2033,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:54.779Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d9beb79bb7ca3170ad83-c5903447a9b11398599c",
+              "file": "01-blackbox/05-paket-detail.spec.ts",
+              "line": 13,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-25 Detail paket menampilkan fasilitas dan itinerary",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 732,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:56.946Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d9beb79bb7ca3170ad83-7ea354ce7e61da3381a2",
+              "file": "01-blackbox/05-paket-detail.spec.ts",
+              "line": 25,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-26 Halaman artikel membuka detail artikel",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 694,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:57.707Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d9beb79bb7ca3170ad83-7024b9b17c49d3420b3a",
+              "file": "01-blackbox/05-paket-detail.spec.ts",
+              "line": 33,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-27 Tidak ada tautan internal yang rusak pada halaman cakupan",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5040,
+                      "error": {
+                        "message": "Error: tautan rusak: /paket-umroh -> 404, /kontak -> 404\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 4\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/paket-umroh -> 404\",\u001b[39m\n\u001b[31m+   \"/kontak -> 404\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: tautan rusak: /paket-umroh -> 404, /kontak -> 404\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 4\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/paket-umroh -> 404\",\u001b[39m\n\u001b[31m+   \"/kontak -> 404\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/01-blackbox/05-paket-detail.spec.ts:60:58",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/01-blackbox/05-paket-detail.spec.ts",
+                          "column": 58,
+                          "line": 60
+                        },
+                        "snippet": "  58 |       if (res.status() >= 400) broken.push(`${href} -> ${res.status()}`);\n  59 |     }\n> 60 |     expect(broken, `tautan rusak: ${broken.join(', ')}`).toEqual([]);\n     |                                                          ^\n  61 |   });\n  62 | });\n  63 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/01-blackbox/05-paket-detail.spec.ts",
+                            "column": 58,
+                            "line": 60
+                          },
+                          "message": "Error: tautan rusak: /paket-umroh -> 404, /kontak -> 404\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 4\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/paket-umroh -> 404\",\u001b[39m\n\u001b[31m+   \"/kontak -> 404\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  58 |       if (res.status() >= 400) broken.push(`${href} -> ${res.status()}`);\n  59 |     }\n> 60 |     expect(broken, `tautan rusak: ${broken.join(', ')}`).toEqual([]);\n     |                                                          ^\n  61 |   });\n  62 | });\n  63 |\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/01-blackbox/05-paket-detail.spec.ts:60:58"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:58.408Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/01-blackbox-05-paket-detai-e5edd--rusak-pada-halaman-cakupan-chromium-desktop/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/01-blackbox-05-paket-detai-e5edd--rusak-pada-halaman-cakupan-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/01-blackbox-05-paket-detai-e5edd--rusak-pada-halaman-cakupan-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/01-blackbox/05-paket-detail.spec.ts",
+                        "column": 58,
+                        "line": 60
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "d9beb79bb7ca3170ad83-328e2320bcb596932677",
+              "file": "01-blackbox/05-paket-detail.spec.ts",
+              "line": 44,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "01-blackbox/06-daftar-agen.spec.ts",
+      "file": "01-blackbox/06-daftar-agen.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "BB — Formulir pendaftaran agen (black box)",
+          "file": "01-blackbox/06-daftar-agen.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-BB-28 Formulir pendaftaran agen menampilkan field wajib",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 377,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:45.388Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d8dc25b30bc94cac59fc-ad5da97b397623b1659a",
+              "file": "01-blackbox/06-daftar-agen.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-29 Submit kosong tidak mengirim data dan menampilkan validasi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1925,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:45.769Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d8dc25b30bc94cac59fc-0462a555e1505cb8fe57",
+              "file": "01-blackbox/06-daftar-agen.spec.ts",
+              "line": 11,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-30 Email tidak valid ditolak oleh validasi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 465,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:47.700Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d8dc25b30bc94cac59fc-9304f74738a0915f4dbe",
+              "file": "01-blackbox/06-daftar-agen.spec.ts",
+              "line": 27,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-31 Field email menggunakan tipe input yang tepat",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 427,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:48.171Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d8dc25b30bc94cac59fc-174ca2ebc8a80d55a3ac",
+              "file": "01-blackbox/06-daftar-agen.spec.ts",
+              "line": 35,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "01-blackbox/07-konten-media.spec.ts",
+      "file": "01-blackbox/07-konten-media.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "BB — Galeri, testimoni, dan media (black box)",
+          "file": "01-blackbox/07-konten-media.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-BB-32 Galeri menampilkan gambar yang benar-benar termuat",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 398,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:48.606Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1977024700667f72d5dd-d5986aed069ac19c667e",
+              "file": "01-blackbox/07-konten-media.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-33 Halaman testimoni menampilkan kartu testimoni jamaah",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1126,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:49.008Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1977024700667f72d5dd-77018b7c9099eb4a6605",
+              "file": "01-blackbox/07-konten-media.spec.ts",
+              "line": 18,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-34 Testimoni beranda menampilkan nama jamaah",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3360,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:50.137Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1977024700667f72d5dd-5c7edaa9b754392c17ba",
+              "file": "01-blackbox/07-konten-media.spec.ts",
+              "line": 27,
+              "column": 3
+            },
+            {
+              "title": "TC-BB-35 Halaman profil memuat legalitas perusahaan",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 642,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:53.504Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1977024700667f72d5dd-aaadc39ed798045f93d9",
+              "file": "01-blackbox/07-konten-media.spec.ts",
+              "line": 35,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "02-whitebox/01-struktur-dom.spec.ts",
+      "file": "02-whitebox/01-struktur-dom.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "WB — Struktur markup & kode klien (white box)",
+          "file": "02-whitebox/01-struktur-dom.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-WB-01 Setiap halaman memiliki tepat satu H1",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 3182,
+                      "error": {
+                        "message": "Error: jumlah H1 tidak tepat: / = 2 H1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/ = 2 H1\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: jumlah H1 tidak tepat: / = 2 H1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/ = 2 H1\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts:11:73",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                          "column": 73,
+                          "line": 11
+                        },
+                        "snippet": "   9 |       if (count !== 1) offenders.push(`${target.path} = ${count} H1`);\n  10 |     }\n> 11 |     expect(offenders, `jumlah H1 tidak tepat: ${offenders.join(', ')}`).toEqual([]);\n     |                                                                         ^\n  12 |   });\n  13 |\n  14 |   test('TC-WB-02 Hierarki heading tidak melompati level', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                            "column": 73,
+                            "line": 11
+                          },
+                          "message": "Error: jumlah H1 tidak tepat: / = 2 H1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/ = 2 H1\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n   9 |       if (count !== 1) offenders.push(`${target.path} = ${count} H1`);\n  10 |     }\n> 11 |     expect(offenders, `jumlah H1 tidak tepat: ${offenders.join(', ')}`).toEqual([]);\n     |                                                                         ^\n  12 |   });\n  13 |\n  14 |   test('TC-WB-02 Hierarki heading tidak melompati level', async ({ page }) => {\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts:11:73"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:54.161Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-3331b-aman-memiliki-tepat-satu-H1-chromium-desktop/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-3331b-aman-memiliki-tepat-satu-H1-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-3331b-aman-memiliki-tepat-satu-H1-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                        "column": 73,
+                        "line": 11
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "112dc66bf1b967b43984-1684ab961a4019835d01",
+              "file": "02-whitebox/01-struktur-dom.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "TC-WB-02 Hierarki heading tidak melompati level",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 1979,
+                      "error": {
+                        "message": "Error: /artikel: h1 -> h3 (\"Tim Kemenag Bertemu Pusat Edukasi Jemaah Kemenhaj, Bahas Evaluasi Layanan Informasi Haji 2\")\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/artikel: h1 -> h3 (\\\"Tim Kemenag Bertemu Pusat Edukasi Jemaah Kemenhaj, Bahas Evaluasi Layanan Informasi Haji 2\\\")\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: /artikel: h1 -> h3 (\"Tim Kemenag Bertemu Pusat Edukasi Jemaah Kemenhaj, Bahas Evaluasi Layanan Informasi Haji 2\")\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/artikel: h1 -> h3 (\\\"Tim Kemenag Bertemu Pusat Edukasi Jemaah Kemenhaj, Bahas Evaluasi Layanan Informasi Haji 2\\\")\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts:28:46",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                          "column": 46,
+                          "line": 28
+                        },
+                        "snippet": "  26 |       }\n  27 |     }\n> 28 |     expect(offenders, offenders.join(' | ')).toEqual([]);\n     |                                              ^\n  29 |   });\n  30 |\n  31 |   test('TC-WB-03 Tidak ada atribut id duplikat di DOM', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                            "column": 46,
+                            "line": 28
+                          },
+                          "message": "Error: /artikel: h1 -> h3 (\"Tim Kemenag Bertemu Pusat Edukasi Jemaah Kemenhaj, Bahas Evaluasi Layanan Informasi Haji 2\")\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/artikel: h1 -> h3 (\\\"Tim Kemenag Bertemu Pusat Edukasi Jemaah Kemenhaj, Bahas Evaluasi Layanan Informasi Haji 2\\\")\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  26 |       }\n  27 |     }\n> 28 |     expect(offenders, offenders.join(' | ')).toEqual([]);\n     |                                              ^\n  29 |   });\n  30 |\n  31 |   test('TC-WB-03 Tidak ada atribut id duplikat di DOM', async ({ page }) => {\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts:28:46"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:35:57.802Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-5927e-ading-tidak-melompati-level-chromium-desktop/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-5927e-ading-tidak-melompati-level-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-5927e-ading-tidak-melompati-level-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                        "column": 46,
+                        "line": 28
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "112dc66bf1b967b43984-65082f556676e5077379",
+              "file": "02-whitebox/01-struktur-dom.spec.ts",
+              "line": 14,
+              "column": 3
+            },
+            {
+              "title": "TC-WB-03 Tidak ada atribut id duplikat di DOM",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2950,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:00.211Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "112dc66bf1b967b43984-f529ea216ff01ec40ea2",
+              "file": "02-whitebox/01-struktur-dom.spec.ts",
+              "line": 31,
+              "column": 3
+            },
+            {
+              "title": "TC-WB-04 Semua elemen img memiliki atribut alt",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3162,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:03.269Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "112dc66bf1b967b43984-ce1fe774e13b53b7e721",
+              "file": "02-whitebox/01-struktur-dom.spec.ts",
+              "line": 41,
+              "column": 3
+            },
+            {
+              "title": "TC-WB-05 Semua kontrol formulir memiliki label yang terasosiasi",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 2305,
+                      "error": {
+                        "message": "Error: /: input[type=text] placeholder=\"TQW-2025-001234\", input[type=text] placeholder=\"Contoh: TQW-2025-001234\" | /daftar-agen: input[type=text] placeholder=\"Masukkan nama lengkap Anda\", input[type=email] placeholder=\"contoh@email.com\", input[type=text] placeholder=\"08xxxxxxxxxx\", input[type=text] placeholder=\"Jalan, nomor rumah, RT/RW, kelurahan\", input[type=text] placeholder=\"Masukkan kota\", input[type=text] placeholder=\"Masukkan provinsi\", input[type=text] placeholder=\"PT. Contoh Travel\", input[type=text] placeholder=\"Travel Agent, Tour Operator, dll\", input[type=text] placeholder=\"Jelaskan pengalaman Anda di bidang travel dan pariwisata\", textarea[type=text] placeholder=\"Jelaskan mengapa Anda ingin bergabung sebagai agen Taqwa Travel...\", input[type=text] placeholder=\"Nama agen atau karyawan Taqwa Travel yang mereferensikan Anda\" | /products: input[type=text] placeholder=\"Cari berdasarkan destinasi, kategori, atau nama paket...\" | /artikel: input[type=text] placeholder=\"Cari artikel...\" | /agen-resmi: input[type=text] placeholder=\"Cari nama agen, lisensi, atau lokasi...\", select[type=text] placeholder=\"\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 7\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/: input[type=text] placeholder=\\\"TQW-2025-001234\\\", input[type=text] placeholder=\\\"Contoh: TQW-2025-001234\\\"\",\u001b[39m\n\u001b[31m+   \"/daftar-agen: input[type=text] placeholder=\\\"Masukkan nama lengkap Anda\\\", input[type=email] placeholder=\\\"contoh@email.com\\\", input[type=text] placeholder=\\\"08xxxxxxxxxx\\\", input[type=text] placeholder=\\\"Jalan, nomor rumah, RT/RW, kelurahan\\\", input[type=text] placeholder=\\\"Masukkan kota\\\", input[type=text] placeholder=\\\"Masukkan provinsi\\\", input[type=text] placeholder=\\\"PT. Contoh Travel\\\", input[type=text] placeholder=\\\"Travel Agent, Tour Operator, dll\\\", input[type=text] placeholder=\\\"Jelaskan pengalaman Anda di bidang travel dan pariwisata\\\", textarea[type=text] placeholder=\\\"Jelaskan mengapa Anda ingin bergabung sebagai agen Taqwa Travel...\\\", input[type=text] placeholder=\\\"Nama agen atau karyawan Taqwa Travel yang mereferensikan Anda\\\"\",\u001b[39m\n\u001b[31m+   \"/products: input[type=text] placeholder=\\\"Cari berdasarkan destinasi, kategori, atau nama paket...\\\"\",\u001b[39m\n\u001b[31m+   \"/artikel: input[type=text] placeholder=\\\"Cari artikel...\\\"\",\u001b[39m\n\u001b[31m+   \"/agen-resmi: input[type=text] placeholder=\\\"Cari nama agen, lisensi, atau lokasi...\\\", select[type=text] placeholder=\\\"\\\"\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: /: input[type=text] placeholder=\"TQW-2025-001234\", input[type=text] placeholder=\"Contoh: TQW-2025-001234\" | /daftar-agen: input[type=text] placeholder=\"Masukkan nama lengkap Anda\", input[type=email] placeholder=\"contoh@email.com\", input[type=text] placeholder=\"08xxxxxxxxxx\", input[type=text] placeholder=\"Jalan, nomor rumah, RT/RW, kelurahan\", input[type=text] placeholder=\"Masukkan kota\", input[type=text] placeholder=\"Masukkan provinsi\", input[type=text] placeholder=\"PT. Contoh Travel\", input[type=text] placeholder=\"Travel Agent, Tour Operator, dll\", input[type=text] placeholder=\"Jelaskan pengalaman Anda di bidang travel dan pariwisata\", textarea[type=text] placeholder=\"Jelaskan mengapa Anda ingin bergabung sebagai agen Taqwa Travel...\", input[type=text] placeholder=\"Nama agen atau karyawan Taqwa Travel yang mereferensikan Anda\" | /products: input[type=text] placeholder=\"Cari berdasarkan destinasi, kategori, atau nama paket...\" | /artikel: input[type=text] placeholder=\"Cari artikel...\" | /agen-resmi: input[type=text] placeholder=\"Cari nama agen, lisensi, atau lokasi...\", select[type=text] placeholder=\"\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 7\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/: input[type=text] placeholder=\\\"TQW-2025-001234\\\", input[type=text] placeholder=\\\"Contoh: TQW-2025-001234\\\"\",\u001b[39m\n\u001b[31m+   \"/daftar-agen: input[type=text] placeholder=\\\"Masukkan nama lengkap Anda\\\", input[type=email] placeholder=\\\"contoh@email.com\\\", input[type=text] placeholder=\\\"08xxxxxxxxxx\\\", input[type=text] placeholder=\\\"Jalan, nomor rumah, RT/RW, kelurahan\\\", input[type=text] placeholder=\\\"Masukkan kota\\\", input[type=text] placeholder=\\\"Masukkan provinsi\\\", input[type=text] placeholder=\\\"PT. Contoh Travel\\\", input[type=text] placeholder=\\\"Travel Agent, Tour Operator, dll\\\", input[type=text] placeholder=\\\"Jelaskan pengalaman Anda di bidang travel dan pariwisata\\\", textarea[type=text] placeholder=\\\"Jelaskan mengapa Anda ingin bergabung sebagai agen Taqwa Travel...\\\", input[type=text] placeholder=\\\"Nama agen atau karyawan Taqwa Travel yang mereferensikan Anda\\\"\",\u001b[39m\n\u001b[31m+   \"/products: input[type=text] placeholder=\\\"Cari berdasarkan destinasi, kategori, atau nama paket...\\\"\",\u001b[39m\n\u001b[31m+   \"/artikel: input[type=text] placeholder=\\\"Cari artikel...\\\"\",\u001b[39m\n\u001b[31m+   \"/agen-resmi: input[type=text] placeholder=\\\"Cari nama agen, lisensi, atau lokasi...\\\", select[type=text] placeholder=\\\"\\\"\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts:58:46",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                          "column": 46,
+                          "line": 58
+                        },
+                        "snippet": "  56 |       if (missing.length) offenders.push(`${target}: ${missing.join(', ')}`);\n  57 |     }\n> 58 |     expect(offenders, offenders.join(' | ')).toEqual([]);\n     |                                              ^\n  59 |   });\n  60 |\n  61 |   test('TC-WB-06 Dokumen hanya memiliki satu elemen title', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                            "column": 46,
+                            "line": 58
+                          },
+                          "message": "Error: /: input[type=text] placeholder=\"TQW-2025-001234\", input[type=text] placeholder=\"Contoh: TQW-2025-001234\" | /daftar-agen: input[type=text] placeholder=\"Masukkan nama lengkap Anda\", input[type=email] placeholder=\"contoh@email.com\", input[type=text] placeholder=\"08xxxxxxxxxx\", input[type=text] placeholder=\"Jalan, nomor rumah, RT/RW, kelurahan\", input[type=text] placeholder=\"Masukkan kota\", input[type=text] placeholder=\"Masukkan provinsi\", input[type=text] placeholder=\"PT. Contoh Travel\", input[type=text] placeholder=\"Travel Agent, Tour Operator, dll\", input[type=text] placeholder=\"Jelaskan pengalaman Anda di bidang travel dan pariwisata\", textarea[type=text] placeholder=\"Jelaskan mengapa Anda ingin bergabung sebagai agen Taqwa Travel...\", input[type=text] placeholder=\"Nama agen atau karyawan Taqwa Travel yang mereferensikan Anda\" | /products: input[type=text] placeholder=\"Cari berdasarkan destinasi, kategori, atau nama paket...\" | /artikel: input[type=text] placeholder=\"Cari artikel...\" | /agen-resmi: input[type=text] placeholder=\"Cari nama agen, lisensi, atau lokasi...\", select[type=text] placeholder=\"\"\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 7\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"/: input[type=text] placeholder=\\\"TQW-2025-001234\\\", input[type=text] placeholder=\\\"Contoh: TQW-2025-001234\\\"\",\u001b[39m\n\u001b[31m+   \"/daftar-agen: input[type=text] placeholder=\\\"Masukkan nama lengkap Anda\\\", input[type=email] placeholder=\\\"contoh@email.com\\\", input[type=text] placeholder=\\\"08xxxxxxxxxx\\\", input[type=text] placeholder=\\\"Jalan, nomor rumah, RT/RW, kelurahan\\\", input[type=text] placeholder=\\\"Masukkan kota\\\", input[type=text] placeholder=\\\"Masukkan provinsi\\\", input[type=text] placeholder=\\\"PT. Contoh Travel\\\", input[type=text] placeholder=\\\"Travel Agent, Tour Operator, dll\\\", input[type=text] placeholder=\\\"Jelaskan pengalaman Anda di bidang travel dan pariwisata\\\", textarea[type=text] placeholder=\\\"Jelaskan mengapa Anda ingin bergabung sebagai agen Taqwa Travel...\\\", input[type=text] placeholder=\\\"Nama agen atau karyawan Taqwa Travel yang mereferensikan Anda\\\"\",\u001b[39m\n\u001b[31m+   \"/products: input[type=text] placeholder=\\\"Cari berdasarkan destinasi, kategori, atau nama paket...\\\"\",\u001b[39m\n\u001b[31m+   \"/artikel: input[type=text] placeholder=\\\"Cari artikel...\\\"\",\u001b[39m\n\u001b[31m+   \"/agen-resmi: input[type=text] placeholder=\\\"Cari nama agen, lisensi, atau lokasi...\\\", select[type=text] placeholder=\\\"\\\"\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  56 |       if (missing.length) offenders.push(`${target}: ${missing.join(', ')}`);\n  57 |     }\n> 58 |     expect(offenders, offenders.join(' | ')).toEqual([]);\n     |                                              ^\n  59 |   });\n  60 |\n  61 |   test('TC-WB-06 Dokumen hanya memiliki satu elemen title', async ({ page }) => {\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts:58:46"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:06.450Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-f55c6-liki-label-yang-terasosiasi-chromium-desktop/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-f55c6-liki-label-yang-terasosiasi-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-f55c6-liki-label-yang-terasosiasi-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                        "column": 46,
+                        "line": 58
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "112dc66bf1b967b43984-4f638968f93e0b024c52",
+              "file": "02-whitebox/01-struktur-dom.spec.ts",
+              "line": 51,
+              "column": 3
+            },
+            {
+              "title": "TC-WB-06 Dokumen hanya memiliki satu elemen title",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 966,
+                      "error": {
+                        "message": "Error: ditemukan lebih dari satu <title>\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                        "stack": "Error: ditemukan lebih dari satu <title>\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts:65:72",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                          "column": 72,
+                          "line": 65
+                        },
+                        "snippet": "  63 |     const titles = await page.locator('head title').count();\n  64 |     const all = await page.evaluate(() => document.querySelectorAll('title').length);\n> 65 |     expect(Math.max(titles, all), 'ditemukan lebih dari satu <title>').toBe(1);\n     |                                                                        ^\n  66 |   });\n  67 |\n  68 |   test('TC-WB-07 Atribut lang dokumen terisi dengan kode bahasa valid', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                            "column": 72,
+                            "line": 65
+                          },
+                          "message": "Error: ditemukan lebih dari satu <title>\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n  63 |     const titles = await page.locator('head title').count();\n  64 |     const all = await page.evaluate(() => document.querySelectorAll('title').length);\n> 65 |     expect(Math.max(titles, all), 'ditemukan lebih dari satu <title>').toBe(1);\n     |                                                                        ^\n  66 |   });\n  67 |\n  68 |   test('TC-WB-07 Atribut lang dokumen terisi dengan kode bahasa valid', async ({ page }) => {\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts:65:72"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:09.111Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-e039e--memiliki-satu-elemen-title-chromium-desktop/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-e039e--memiliki-satu-elemen-title-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-e039e--memiliki-satu-elemen-title-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                        "column": 72,
+                        "line": 65
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "112dc66bf1b967b43984-361ede7bd10a4f88d110",
+              "file": "02-whitebox/01-struktur-dom.spec.ts",
+              "line": 61,
+              "column": 3
+            },
+            {
+              "title": "TC-WB-07 Atribut lang dokumen terisi dengan kode bahasa valid",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 1641,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^id(-|$)/\u001b[39m\nReceived string:  \u001b[31m\"en\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^id(-|$)/\u001b[39m\nReceived string:  \u001b[31m\"en\"\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts:72:33",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                          "column": 33,
+                          "line": 72
+                        },
+                        "snippet": "  70 |     const lang = await page.locator('html').getAttribute('lang');\n  71 |     expect(lang).toBeTruthy();\n> 72 |     expect(lang?.toLowerCase()).toMatch(/^id(-|$)/);\n     |                                 ^\n  73 |   });\n  74 |\n  75 |   test('TC-WB-08 Jumlah node DOM dalam anggaran performa', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                            "column": 33,
+                            "line": 72
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/^id(-|$)/\u001b[39m\nReceived string:  \u001b[31m\"en\"\u001b[39m\n\n  70 |     const lang = await page.locator('html').getAttribute('lang');\n  71 |     expect(lang).toBeTruthy();\n> 72 |     expect(lang?.toLowerCase()).toMatch(/^id(-|$)/);\n     |                                 ^\n  73 |   });\n  74 |\n  75 |   test('TC-WB-08 Jumlah node DOM dalam anggaran performa', async ({ page }) => {\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts:72:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:10.410Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-591bd-si-dengan-kode-bahasa-valid-chromium-desktop/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-591bd-si-dengan-kode-bahasa-valid-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/02-whitebox-01-struktur-do-591bd-si-dengan-kode-bahasa-valid-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/02-whitebox/01-struktur-dom.spec.ts",
+                        "column": 33,
+                        "line": 72
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "112dc66bf1b967b43984-cc10c18a7c4d1659ffdf",
+              "file": "02-whitebox/01-struktur-dom.spec.ts",
+              "line": 68,
+              "column": 3
+            },
+            {
+              "title": "TC-WB-08 Jumlah node DOM dalam anggaran performa",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 511,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:12.878Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "112dc66bf1b967b43984-6a98a885545740d17ec9",
+              "file": "02-whitebox/01-struktur-dom.spec.ts",
+              "line": 75,
+              "column": 3
+            },
+            {
+              "title": "TC-WB-09 Bundel CSS dan JS tidak memuat berkas yang gagal (4xx/5xx)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2380,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:13.519Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "112dc66bf1b967b43984-9bfbe07b2d43a1cfa9de",
+              "file": "02-whitebox/01-struktur-dom.spec.ts",
+              "line": 81,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "02-whitebox/02-kode-klien.spec.ts",
+      "file": "02-whitebox/02-kode-klien.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "WB — Cakupan kode klien & runtime (white box)",
+          "file": "02-whitebox/02-kode-klien.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-WB-10 Cakupan eksekusi bundel JavaScript terukur",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5391,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:03.906Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f85cdcbce2105fced2e2-345b660cb9778347bce0",
+              "file": "02-whitebox/02-kode-klien.spec.ts",
+              "line": 8,
+              "column": 3
+            },
+            {
+              "title": "TC-WB-11 Bundel CSS yang dikirim berada di bawah anggaran",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 508,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:09.406Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f85cdcbce2105fced2e2-3475296fa32417c51f2f",
+              "file": "02-whitebox/02-kode-klien.spec.ts",
+              "line": 72,
+              "column": 3
+            },
+            {
+              "title": "TC-WB-12 Tidak ada error konsol pada tiga halaman utama",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5484,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:09.919Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f85cdcbce2105fced2e2-daeee09d779504858f5b",
+              "file": "02-whitebox/02-kode-klien.spec.ts",
+              "line": 85,
+              "column": 3
+            },
+            {
+              "title": "TC-WB-13 Hidrasi SvelteKit selesai dan interaksi berjalan",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 502,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:15.415Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f85cdcbce2105fced2e2-71ce2ce617c01f9ec3c6",
+              "file": "02-whitebox/02-kode-klien.spec.ts",
+              "line": 101,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "03-greybox/01-http-header.spec.ts",
+      "file": "03-greybox/01-http-header.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "GB — HTTP, header, dan konfigurasi server (grey box)",
+          "file": "03-greybox/01-http-header.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-GB-01 Semua halaman cakupan merespons 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1823,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:15.920Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04dc70bfc4b145b305ea-c93c4793271825e21676",
+              "file": "03-greybox/01-http-header.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-02 Header keamanan dasar tersedia",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 162,
+                      "error": {
+                        "message": "Error: header tidak ada: X-Content-Type-Options, X-Frame-Options/CSP frame-ancestors, Referrer-Policy, Strict-Transport-Security, Content-Security-Policy\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 7\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"X-Content-Type-Options\",\u001b[39m\n\u001b[31m+   \"X-Frame-Options/CSP frame-ancestors\",\u001b[39m\n\u001b[31m+   \"Referrer-Policy\",\u001b[39m\n\u001b[31m+   \"Strict-Transport-Security\",\u001b[39m\n\u001b[31m+   \"Content-Security-Policy\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: header tidak ada: X-Content-Type-Options, X-Frame-Options/CSP frame-ancestors, Referrer-Policy, Strict-Transport-Security, Content-Security-Policy\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 7\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"X-Content-Type-Options\",\u001b[39m\n\u001b[31m+   \"X-Frame-Options/CSP frame-ancestors\",\u001b[39m\n\u001b[31m+   \"Referrer-Policy\",\u001b[39m\n\u001b[31m+   \"Strict-Transport-Security\",\u001b[39m\n\u001b[31m+   \"Content-Security-Policy\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts:22:64",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts",
+                          "column": 64,
+                          "line": 22
+                        },
+                        "snippet": "  20 |     if (!h['strict-transport-security']) missing.push('Strict-Transport-Security');\n  21 |     if (!h['content-security-policy']) missing.push('Content-Security-Policy');\n> 22 |     expect(missing, `header tidak ada: ${missing.join(', ')}`).toEqual([]);\n     |                                                                ^\n  23 |   });\n  24 |\n  25 |   test('TC-GB-03 Content-Type HTML menyertakan charset', async ({ request }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts",
+                            "column": 64,
+                            "line": 22
+                          },
+                          "message": "Error: header tidak ada: X-Content-Type-Options, X-Frame-Options/CSP frame-ancestors, Referrer-Policy, Strict-Transport-Security, Content-Security-Policy\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 7\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"X-Content-Type-Options\",\u001b[39m\n\u001b[31m+   \"X-Frame-Options/CSP frame-ancestors\",\u001b[39m\n\u001b[31m+   \"Referrer-Policy\",\u001b[39m\n\u001b[31m+   \"Strict-Transport-Security\",\u001b[39m\n\u001b[31m+   \"Content-Security-Policy\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  20 |     if (!h['strict-transport-security']) missing.push('Strict-Transport-Security');\n  21 |     if (!h['content-security-policy']) missing.push('Content-Security-Policy');\n> 22 |     expect(missing, `header tidak ada: ${missing.join(', ')}`).toEqual([]);\n     |                                                                ^\n  23 |   });\n  24 |\n  25 |   test('TC-GB-03 Content-Type HTML menyertakan charset', async ({ request }) => {\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts:22:64"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:17.747Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-01-http-header--cf2d9-der-keamanan-dasar-tersedia-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-01-http-header--cf2d9-der-keamanan-dasar-tersedia-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts",
+                        "column": 64,
+                        "line": 22
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "04dc70bfc4b145b305ea-4276e9911e6e383f0c9d",
+              "file": "03-greybox/01-http-header.spec.ts",
+              "line": 13,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-03 Content-Type HTML menyertakan charset",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 176,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/text\\/html;\\s*charset=utf-8/i\u001b[39m\nReceived string:  \u001b[31m\"text/html\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/text\\/html;\\s*charset=utf-8/i\u001b[39m\nReceived string:  \u001b[31m\"text/html\"\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts:27:49",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts",
+                          "column": 49,
+                          "line": 27
+                        },
+                        "snippet": "  25 |   test('TC-GB-03 Content-Type HTML menyertakan charset', async ({ request }) => {\n  26 |     const res = await request.get('/');\n> 27 |     expect(res.headers()['content-type'] || '').toMatch(/text\\/html;\\s*charset=utf-8/i);\n     |                                                 ^\n  28 |   });\n  29 |\n  30 |   test('TC-GB-04 Ukuran dokumen HTML di bawah anggaran', async ({ request }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts",
+                            "column": 49,
+                            "line": 27
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/text\\/html;\\s*charset=utf-8/i\u001b[39m\nReceived string:  \u001b[31m\"text/html\"\u001b[39m\n\n  25 |   test('TC-GB-03 Content-Type HTML menyertakan charset', async ({ request }) => {\n  26 |     const res = await request.get('/');\n> 27 |     expect(res.headers()['content-type'] || '').toMatch(/text\\/html;\\s*charset=utf-8/i);\n     |                                                 ^\n  28 |   });\n  29 |\n  30 |   test('TC-GB-04 Ukuran dokumen HTML di bawah anggaran', async ({ request }) => {\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts:27:49"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:18.119Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-01-http-header--1b7e2-pe-HTML-menyertakan-charset-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-01-http-header--1b7e2-pe-HTML-menyertakan-charset-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts",
+                        "column": 49,
+                        "line": 27
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "04dc70bfc4b145b305ea-97a78c06b1304b529759",
+              "file": "03-greybox/01-http-header.spec.ts",
+              "line": 25,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-04 Ukuran dokumen HTML di bawah anggaran",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 195,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:18.490Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04dc70bfc4b145b305ea-3a734689e3f5c9b27334",
+              "file": "03-greybox/01-http-header.spec.ts",
+              "line": 30,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-05 Aset statis memakai cache yang sesuai",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 152,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:18.704Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04dc70bfc4b145b305ea-2b84c4297445ed2049c1",
+              "file": "03-greybox/01-http-header.spec.ts",
+              "line": 36,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-06 HTTP dialihkan ke HTTPS dan www dinormalisasi",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 322,
+                      "error": {
+                        "message": "Error: HTTP tidak dialihkan ke HTTPS (status 200)\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected value: \u001b[32m200\u001b[39m\nReceived array: \u001b[31m[301, 302, 307, 308]\u001b[39m",
+                        "stack": "Error: HTTP tidak dialihkan ke HTTPS (status 200)\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected value: \u001b[32m200\u001b[39m\nReceived array: \u001b[31m[301, 302, 307, 308]\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts:45:93",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts",
+                          "column": 93,
+                          "line": 45
+                        },
+                        "snippet": "  43 |   test('TC-GB-06 HTTP dialihkan ke HTTPS dan www dinormalisasi', async ({ page, request }) => {\n  44 |     const http = await request.get('http://taqwatravel.com/', { maxRedirects: 0 });\n> 45 |     expect([301, 302, 307, 308], `HTTP tidak dialihkan ke HTTPS (status ${http.status()})`).toContain(http.status());\n     |                                                                                             ^\n  46 |     const www = await request\n  47 |       .get('https://www.taqwatravel.com/', { maxRedirects: 0, timeout: 15_000 })\n  48 |       .catch(() => null);"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts",
+                            "column": 93,
+                            "line": 45
+                          },
+                          "message": "Error: HTTP tidak dialihkan ke HTTPS (status 200)\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected value: \u001b[32m200\u001b[39m\nReceived array: \u001b[31m[301, 302, 307, 308]\u001b[39m\n\n  43 |   test('TC-GB-06 HTTP dialihkan ke HTTPS dan www dinormalisasi', async ({ page, request }) => {\n  44 |     const http = await request.get('http://taqwatravel.com/', { maxRedirects: 0 });\n> 45 |     expect([301, 302, 307, 308], `HTTP tidak dialihkan ke HTTPS (status ${http.status()})`).toContain(http.status());\n     |                                                                                             ^\n  46 |     const www = await request\n  47 |       .get('https://www.taqwatravel.com/', { maxRedirects: 0, timeout: 15_000 })\n  48 |       .catch(() => null);\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts:45:93"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:18.859Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-01-http-header--d2428-HTTPS-dan-www-dinormalisasi-chromium-desktop/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-01-http-header--d2428-HTTPS-dan-www-dinormalisasi-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-01-http-header--d2428-HTTPS-dan-www-dinormalisasi-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts",
+                        "column": 93,
+                        "line": 45
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "04dc70bfc4b145b305ea-ce8a2647e00af79b74c1",
+              "file": "03-greybox/01-http-header.spec.ts",
+              "line": 43,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-07 Halaman administrasi tidak dapat diindeks mesin pencari",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 16069,
+                      "error": {
+                        "message": "Error: halaman login admin harus noindex\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/noindex/\u001b[39m\nReceived string:  \u001b[31m\" \"\u001b[39m",
+                        "stack": "Error: halaman login admin harus noindex\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/noindex/\u001b[39m\nReceived string:  \u001b[31m\" \"\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts:59:95",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts",
+                          "column": 95,
+                          "line": 59
+                        },
+                        "snippet": "  57 |     const robots = await page.locator('meta[name=\"robots\"]').first().getAttribute('content').catch(() => null);\n  58 |     const xrt = (await page.request.get('/dashboard')).headers()['x-robots-tag'];\n> 59 |     expect(`${robots || ''} ${xrt || ''}`.toLowerCase(), 'halaman login admin harus noindex').toMatch(/noindex/);\n     |                                                                                               ^\n  60 |   });\n  61 |\n  62 |   test('TC-GB-08 Tidak ada direktori API publik yang dapat diakses tanpa izin', async ({ request }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts",
+                            "column": 95,
+                            "line": 59
+                          },
+                          "message": "Error: halaman login admin harus noindex\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/noindex/\u001b[39m\nReceived string:  \u001b[31m\" \"\u001b[39m\n\n  57 |     const robots = await page.locator('meta[name=\"robots\"]').first().getAttribute('content').catch(() => null);\n  58 |     const xrt = (await page.request.get('/dashboard')).headers()['x-robots-tag'];\n> 59 |     expect(`${robots || ''} ${xrt || ''}`.toLowerCase(), 'halaman login admin harus noindex').toMatch(/noindex/);\n     |                                                                                               ^\n  60 |   });\n  61 |\n  62 |   test('TC-GB-08 Tidak ada direktori API publik yang dapat diakses tanpa izin', async ({ request }) => {\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts:59:95"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:19.475Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-01-http-header--a58d4-apat-diindeks-mesin-pencari-chromium-desktop/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-01-http-header--a58d4-apat-diindeks-mesin-pencari-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-01-http-header--a58d4-apat-diindeks-mesin-pencari-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/01-http-header.spec.ts",
+                        "column": 95,
+                        "line": 59
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "04dc70bfc4b145b305ea-67201a38717815dddfe2",
+              "file": "03-greybox/01-http-header.spec.ts",
+              "line": 55,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-08 Tidak ada direktori API publik yang dapat diakses tanpa izin",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 164,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:35.906Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04dc70bfc4b145b305ea-60291d57749861a43032",
+              "file": "03-greybox/01-http-header.spec.ts",
+              "line": 62,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-09 Respons HTML dikompresi saat klien mendukung",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 203,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:36.088Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04dc70bfc4b145b305ea-afe36e913f1d0e9d7d07",
+              "file": "03-greybox/01-http-header.spec.ts",
+              "line": 67,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-10 Waktu respons server (TTFB) dalam batas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 558,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:36.298Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04dc70bfc4b145b305ea-737a50c3c057a2ff569e",
+              "file": "03-greybox/01-http-header.spec.ts",
+              "line": 73,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "03-greybox/02-seo-sitemap.spec.ts",
+      "file": "03-greybox/02-seo-sitemap.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "GB — SEO teknis, sitemap, dan data terstruktur (grey box)",
+          "file": "03-greybox/02-seo-sitemap.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-GB-11 robots.txt memuat aturan dasar dan menunjuk sitemap",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 163,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:15.928Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "754e79de3aca39ee4814-655cd28efde994330011",
+              "file": "03-greybox/02-seo-sitemap.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-12 sitemap.xml valid, unik, dan seluruh URL dapat diakses",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 128,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:16.095Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "754e79de3aca39ee4814-e4bffa11e89ddc11a296",
+              "file": "03-greybox/02-seo-sitemap.spec.ts",
+              "line": 12,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-13 Canonical sesuai URL dan hanya satu",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1623,
+                      "error": {
+                        "message": "Error: /products harus punya 1 canonical\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m",
+                        "stack": "Error: /products harus punya 1 canonical\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts:27:70",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts",
+                          "column": 70,
+                          "line": 27
+                        },
+                        "snippet": "  25 |       await page.goto(path);\n  26 |       const canon = page.locator('link[rel=\"canonical\"]');\n> 27 |       expect(await canon.count(), `${path} harus punya 1 canonical`).toBe(1);\n     |                                                                      ^\n  28 |       const href = await canon.getAttribute('href');\n  29 |       expect(href?.replace(/\\/$/, '')).toBe(`https://taqwatravel.com${path}`.replace(/\\/$/, ''));\n  30 |     }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts",
+                            "column": 70,
+                            "line": 27
+                          },
+                          "message": "Error: /products harus punya 1 canonical\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n\n  25 |       await page.goto(path);\n  26 |       const canon = page.locator('link[rel=\"canonical\"]');\n> 27 |       expect(await canon.count(), `${path} harus punya 1 canonical`).toBe(1);\n     |                                                                      ^\n  28 |       const href = await canon.getAttribute('href');\n  29 |       expect(href?.replace(/\\/$/, '')).toBe(`https://taqwatravel.com${path}`.replace(/\\/$/, ''));\n  30 |     }\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts:27:70"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:16.229Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-02-seo-sitemap--8f16d-l-sesuai-URL-dan-hanya-satu-chromium-desktop/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-02-seo-sitemap--8f16d-l-sesuai-URL-dan-hanya-satu-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-02-seo-sitemap--8f16d-l-sesuai-URL-dan-hanya-satu-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts",
+                        "column": 70,
+                        "line": 27
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "754e79de3aca39ee4814-f68a192c6d6727ec483a",
+              "file": "03-greybox/02-seo-sitemap.spec.ts",
+              "line": 23,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-14 Meta description unik dan panjangnya wajar",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1966,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:18.165Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "754e79de3aca39ee4814-9af3e61afb5558834be0",
+              "file": "03-greybox/02-seo-sitemap.spec.ts",
+              "line": 33,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-15 Open Graph lengkap dan gambar OG dapat diakses",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1038,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:20.235Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "754e79de3aca39ee4814-f8a6a57e101aa92565ca",
+              "file": "03-greybox/02-seo-sitemap.spec.ts",
+              "line": 48,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-16 Data terstruktur JSON-LD valid",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 552,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:21.279Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "754e79de3aca39ee4814-927d38f893bc17ad25ea",
+              "file": "03-greybox/02-seo-sitemap.spec.ts",
+              "line": 58,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-17 Judul halaman berbeda antar halaman (HTML dari server)",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 781,
+                      "error": {
+                        "message": "Error: judul SSR: Taqwa Travel Haji dan Umroh - Taqwa Group | Taqwa Travel Haji dan Umroh - Taqwa Group | Taqwa Travel Haji dan Umroh - Taqwa Group | Taqwa Travel Haji dan Umroh - Taqwa Group | Taqwa Travel Haji dan Umroh - Taqwa Group\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m5\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
+                        "stack": "Error: judul SSR: Taqwa Travel Haji dan Umroh - Taqwa Group | Taqwa Travel Haji dan Umroh - Taqwa Group | Taqwa Travel Haji dan Umroh - Taqwa Group | Taqwa Travel Haji dan Umroh - Taqwa Group | Taqwa Travel Haji dan Umroh - Taqwa Group\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m5\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts:75:70",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts",
+                          "column": 70,
+                          "line": 75
+                        },
+                        "snippet": "  73 |       titles.push((match?.[1] || '(tanpa title)').trim());\n  74 |     }\n> 75 |     expect(new Set(titles).size, `judul SSR: ${titles.join(' | ')}`).toBe(titles.length);\n     |                                                                      ^\n  76 |   });\n  77 |\n  78 |   test('TC-GB-18 Halaman 404 tidak diindeks dan mengembalikan status benar', async ({ request, page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts",
+                            "column": 70,
+                            "line": 75
+                          },
+                          "message": "Error: judul SSR: Taqwa Travel Haji dan Umroh - Taqwa Group | Taqwa Travel Haji dan Umroh - Taqwa Group | Taqwa Travel Haji dan Umroh - Taqwa Group | Taqwa Travel Haji dan Umroh - Taqwa Group | Taqwa Travel Haji dan Umroh - Taqwa Group\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m5\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n\n  73 |       titles.push((match?.[1] || '(tanpa title)').trim());\n  74 |     }\n> 75 |     expect(new Set(titles).size, `judul SSR: ${titles.join(' | ')}`).toBe(titles.length);\n     |                                                                      ^\n  76 |   });\n  77 |\n  78 |   test('TC-GB-18 Halaman 404 tidak diindeks dan mengembalikan status benar', async ({ request, page }) => {\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts:75:70"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:21.835Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-02-seo-sitemap--38dd1-r-halaman-HTML-dari-server--chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-02-seo-sitemap--38dd1-r-halaman-HTML-dari-server--chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts",
+                        "column": 70,
+                        "line": 75
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "754e79de3aca39ee4814-945e2c762e2ac1babb30",
+              "file": "03-greybox/02-seo-sitemap.spec.ts",
+              "line": 68,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-18 Halaman 404 tidak diindeks dan mengembalikan status benar",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 15861,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"noindex\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"noindex\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts:83:42",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts",
+                          "column": 42,
+                          "line": 83
+                        },
+                        "snippet": "  81 |     await page.goto('/halaman-tidak-ada-qa-2026');\n  82 |     const robots = await page.locator('meta[name=\"robots\"]').first().getAttribute('content').catch(() => '');\n> 83 |     expect((robots || '').toLowerCase()).toContain('noindex');\n     |                                          ^\n  84 |   });\n  85 | });\n  86 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts",
+                            "column": 42,
+                            "line": 83
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"noindex\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\n\n  81 |     await page.goto('/halaman-tidak-ada-qa-2026');\n  82 |     const robots = await page.locator('meta[name=\"robots\"]').first().getAttribute('content').catch(() => '');\n> 83 |     expect((robots || '').toLowerCase()).toContain('noindex');\n     |                                          ^\n  84 |   });\n  85 | });\n  86 |\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts:83:42"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:22.844Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-02-seo-sitemap--312b1--mengembalikan-status-benar-chromium-desktop/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-02-seo-sitemap--312b1--mengembalikan-status-benar-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/03-greybox-02-seo-sitemap--312b1--mengembalikan-status-benar-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/03-greybox/02-seo-sitemap.spec.ts",
+                        "column": 42,
+                        "line": 83
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "754e79de3aca39ee4814-15ff881b3022d5c0506e",
+              "file": "03-greybox/02-seo-sitemap.spec.ts",
+              "line": 78,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "03-greybox/03-keamanan-dasar.spec.ts",
+      "file": "03-greybox/03-keamanan-dasar.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "GB — Pemeriksaan keamanan dasar (grey box)",
+          "file": "03-greybox/03-keamanan-dasar.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-GB-19 Tidak ada mixed content pada halaman HTTPS",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3210,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:36.876Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4bbcc3f22fde1331a522-719af91428b6a81797de",
+              "file": "03-greybox/03-keamanan-dasar.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-20 Cookie yang dikirim memakai atribut Secure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 426,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:40.311Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4bbcc3f22fde1331a522-17893e9068254d8c71da",
+              "file": "03-greybox/03-keamanan-dasar.spec.ts",
+              "line": 15,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-21 Halaman admin tidak membocorkan sesi atau kredensial di HTML",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 576,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:40.742Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4bbcc3f22fde1331a522-60dba2b27bdad30b6ab5",
+              "file": "03-greybox/03-keamanan-dasar.spec.ts",
+              "line": 22,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-22 Panel admin tidak dapat diakses tanpa autentikasi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1112,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:41.324Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4bbcc3f22fde1331a522-34503ad90868d356a8ba",
+              "file": "03-greybox/03-keamanan-dasar.spec.ts",
+              "line": 30,
+              "column": 3
+            },
+            {
+              "title": "TC-GB-23 Tidak ada kebocoran stack trace pada respons error",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 711,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:42.440Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4bbcc3f22fde1331a522-41893423f6bb1f4ce455",
+              "file": "03-greybox/03-keamanan-dasar.spec.ts",
+              "line": 44,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "04-nonfungsional/01-kinerja.spec.ts",
       "file": "04-nonfungsional/01-kinerja.spec.ts",
       "column": 0,
@@ -134,8 +3301,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2034,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:39.174Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "9a9297ae01831dfbe447-89142541d256dc00efaa",
@@ -154,8 +3335,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2427,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:41.334Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "9a9297ae01831dfbe447-042d905fa14db566fe48",
@@ -174,8 +3369,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1468,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:43.767Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "9a9297ae01831dfbe447-9f713238fc663a256f0e",
@@ -211,8 +3420,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1322,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:43.160Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "858456c762f49aac3b31-cf116bafdcec256b42b2",
@@ -231,8 +3454,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1321,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:44.486Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "858456c762f49aac3b31-5f90f0d919a54239dfce",
@@ -251,8 +3488,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1407,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:45.812Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "858456c762f49aac3b31-1c00383e4926125a13f9",
@@ -271,8 +3522,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1614,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:47.223Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "858456c762f49aac3b31-e8fdadd15d15ccfab96c",
@@ -291,8 +3556,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 417,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:48.840Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "858456c762f49aac3b31-2205b048fe9182d56e78",
@@ -311,8 +3590,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 393,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:49.262Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "858456c762f49aac3b31-dab28ee424a08004832f",
@@ -331,8 +3624,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 376,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:49.659Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "858456c762f49aac3b31-a4c99b9c2e1c35a0c9fb",
@@ -359,7 +3666,7 @@
           "specs": [
             {
               "title": "TC-NF-08 Pemindaian axe beranda: tidak ada pelanggaran critical",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -368,8 +3675,62 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 4445,
+                      "error": {
+                        "message": "Error: critical: button-name | serious: color-contrast\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"button-name (2)\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: critical: button-name | serious: color-contrast\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"button-name (2)\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/04-nonfungsional/03-aksesibilitas.spec.ts:37:9",
+                        "location": {
+                          "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/04-nonfungsional/03-aksesibilitas.spec.ts",
+                          "column": 9,
+                          "line": 37
+                        },
+                        "snippet": "  35 |         critical.map((v) => `${v.id} (${v.nodes.length})`),\n  36 |         `critical: ${critical.map((v) => v.id).join(', ')} | serious: ${serious.map((v) => v.id).join(', ')}`,\n> 37 |       ).toEqual([]);\n     |         ^\n  38 |       expect(\n  39 |         serious.map((v) => `${v.id} (${v.nodes.length})`),\n  40 |         `serious: ${serious.map((v) => v.id).join(', ')}`,"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/04-nonfungsional/03-aksesibilitas.spec.ts",
+                            "column": 9,
+                            "line": 37
+                          },
+                          "message": "Error: critical: button-name | serious: color-contrast\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"button-name (2)\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  35 |         critical.map((v) => `${v.id} (${v.nodes.length})`),\n  36 |         `critical: ${critical.map((v) => v.id).join(', ')} | serious: ${serious.map((v) => v.id).join(', ')}`,\n> 37 |       ).toEqual([]);\n     |         ^\n  38 |       expect(\n  39 |         serious.map((v) => `${v.id} (${v.nodes.length})`),\n  40 |         `serious: ${serious.map((v) => v.id).join(', ')}`,\n    at /Volumes/IDEKU/Learning/TugasAkhirQA/tests/04-nonfungsional/03-aksesibilitas.spec.ts:37:9"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:45.272Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/04-nonfungsional-03-aksesi-41b33-ak-ada-pelanggaran-critical-chromium-desktop/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/04-nonfungsional-03-aksesi-41b33-ak-ada-pelanggaran-critical-chromium-desktop/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Volumes/IDEKU/Learning/TugasAkhirQA/reports/artifacts/04-nonfungsional-03-aksesi-41b33-ak-ada-pelanggaran-critical-chromium-desktop/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Volumes/IDEKU/Learning/TugasAkhirQA/tests/04-nonfungsional/03-aksesibilitas.spec.ts",
+                        "column": 9,
+                        "line": 37
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
                 }
               ],
               "id": "9024c212bc16a038701d-549920ef1f001ddd4425",
@@ -388,8 +3749,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1859,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:50.202Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "9024c212bc16a038701d-37f20dfa185dc4698b85",
@@ -408,8 +3783,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1210,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:52.152Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "9024c212bc16a038701d-16a4f6d70a8ff43b640e",
@@ -428,8 +3817,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 474,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:53.366Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "9024c212bc16a038701d-5d5308d7c32fa27d2538",
@@ -448,8 +3851,22 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium-desktop",
                   "projectName": "chromium-desktop",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 469,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T04:36:53.844Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "9024c212bc16a038701d-ed72943379a0ae77ea38",
@@ -464,11 +3881,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-20T21:22:54.546Z",
-    "duration": 45.47800000000001,
-    "expected": 0,
-    "skipped": 15,
-    "unexpected": 0,
+    "startTime": "2026-11-26T04:35:25.734Z",
+    "duration": 88588.732,
+    "expected": 71,
+    "skipped": 0,
+    "unexpected": 15,
     "flaky": 0
   }
 }
