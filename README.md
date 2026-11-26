@@ -47,7 +47,7 @@ Repositori ini disusun oleh Kelompok 2 untuk tugas akhir QA.
 |---|---|
 | Objek uji (TOE) | [https://taqwatravel.com](https://taqwatravel.com) — Taqwa Travel (PT. Taqwa Cahaya Semesta) |
 | Jenis sistem | Aplikasi web SvelteKit (SSR) di Cloudflare; API `api.taqwatravel.com`, aset `s3.taqwatravel.com` |
-| Versi yang diuji | Deployment produksi per 20 November 2026 |
+| Versi yang diuji | Deployment produksi per 26 November 2026 (eksekusi awal 20 November 2026) |
 | Sifat pengujian | *Read-only*: tidak ada data pelanggan dibuat, tidak ada pembayaran/lead dikirim, formulir hanya diuji dengan input kosong atau tidak valid |
 | Lingkup lengkap | [docs/02-test-plan.md §2.2](docs/02-test-plan.md#22-ruang-lingkup) |
 
@@ -165,8 +165,8 @@ Folder `reports/html/`, `reports/artifacts/`, `test-results/`, `playwright-repor
 | Lulus | **71** |
 | Gagal | **15** |
 | Tingkat kelulusan | **82,6%** |
-| Durasi eksekusi | 140,7 detik |
-| Tanggal eksekusi | 20 November 2026 |
+| Durasi eksekusi | 163,7 detik |
+| Tanggal eksekusi | 26 November 2026 |
 
 Lima belas kegagalan tersebut **sengaja dipertahankan** karena merupakan defect nyata pada situs
 yang diuji, bukan akibat skrip yang rusak; karena itu `npm test` berakhir dengan exit code 1.

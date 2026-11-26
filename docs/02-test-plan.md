@@ -9,7 +9,7 @@ konsep dari ISO/IEC/IEEE 29119-1:2022 serta objektif kualitas dari ISO/IEC 25010
 |---|---|
 | Objek uji (TOE) | Situs publik **https://taqwatravel.com** — Taqwa Travel (PT. Taqwa Cahaya Semesta) |
 | Jenis sistem | Aplikasi web SvelteKit (SSR) di Cloudflare, API di `api.taqwatravel.com`, aset di `s3.taqwatravel.com` |
-| Versi yang diuji | Deployment produksi per 20 November 2026 (header `x-sveltekit-page`, `cf-ray`) |
+| Versi yang diuji | Deployment produksi per 26 November 2026 (eksekusi awal 20 November 2026) |
 | Dokumen acuan | ISO/IEC 25040:2024, ISO/IEC/IEEE 29119-1:2022, 29119-5:2024, ISO/IEC 25010:2023, 25019:2023, 25002:2024, 15408-1:2026, 18045:2026 |
 | Penyusun / penguji | QA Tugas Akhir (pengujian independen) |
 | Status dokumen | Final untuk siklus pengujian 1 |
@@ -76,7 +76,7 @@ dengan pola *keyword-driven* (helper `goto`, `watch`, `assert`) sesuai ISO/IEC/I
 
 | Aspek | Nilai |
 |---|---|
-| Tanggal eksekusi | 20 November 2026 |
+| Tanggal eksekusi | 20 November 2026 (eksekusi ulang verifikasi 26 November 2026) |
 | Perangkat | macOS, Apple Silicon |
 | Peramban otomatis | Chromium 159 (Playwright headless shell), viewport 1280×800 |
 | Peramban manual | Chromium (panel Local browser), viewport 1280×800 dan 390×844 |

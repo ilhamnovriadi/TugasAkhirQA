@@ -7,7 +7,7 @@ ISO/IEC 25010:2023 dan model kualitas dalam penggunaan ISO/IEC 25019:2023.
 
 | Item | Nilai |
 |---|---|
-| Objek evaluasi | https://taqwatravel.com (produksi, 20 November 2026) |
+| Objek evaluasi | https://taqwatravel.com (produksi, 20 November 2026; verifikasi ulang 26 November 2026) |
 | Test case otomatis | 86 dijalankan, **71 lulus**, **15 gagal** → tingkat kelulusan **82,6%** |
 | Test case manual | 13 kasus (2 white box, 7 black box, 2 grey box, 2 non-fungsional) |
 | Insiden tercatat | 18 (0 Critical, 7 High, 7 Medium, 4 Low) |

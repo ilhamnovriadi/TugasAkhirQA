@@ -6,7 +6,8 @@ kerjanya secara merata ke empat anggota **Kelompok 2**. Ruang lingkup mengacu pa
 keluaran mengikuti [docs/03](03-test-design.md).
 
 > **Asumsi jadwal.** Proyek berdurasi **8 minggu, 12 Oktober – 5 Desember 2026**, dengan eksekusi
-> otomasi pada **20 November 2026** (lihat [docs/05](05-hasil-otomasi.md)) dan **batas pengumpulan
+> otomasi pada **20 November 2026**, diverifikasi ulang **26 November 2026** (lihat
+> [docs/05](05-hasil-otomasi.md)) dan **batas pengumpulan
 > tugas 5 Desember 2026**. Bila dosen menetapkan tanggal lain, seluruh minggu dapat digeser tanpa
 > mengubah urutan ketergantungan.
 
@@ -16,7 +17,7 @@ keluaran mengikuti [docs/03](03-test-design.md).
 |---|---|---|---|---|---|
 | 1 | 12–18 Okt 2026 | Menetapkan kebutuhan evaluasi | Studi 8 standar 2022–2026, identifikasi objek uji, aktor, dan ruang lingkup | Adji | [docs/01](01-standar-qa-2022-2026.md) |
 | 2 | 19–25 Okt 2026 | Menetapkan kebutuhan evaluasi | Test plan: metrik & ambang 25010, kriteria masuk/keluar, risiko | Adji, review Ilham | [docs/02](02-test-plan.md) |
-| 3 | 26 Okt–1 Nov 2026 | Menyusun spesifikasi evaluasi | Desain 81 ID test case (35 BB, 13 WB, 23 GB, 10 NF), data uji, matriks keterlacakan, 12 skenario manual | Ilham, Nurul | [docs/03](03-test-design.md) |
+| 3 | 26 Okt–1 Nov 2026 | Menyusun spesifikasi evaluasi | Desain 81 ID test case (35 BB, 13 WB, 23 GB, 10 NF), data uji, matriks keterlacakan, 13 skenario manual | Ilham, Nurul | [docs/03](03-test-design.md) |
 | 4 | 2–8 Nov 2026 | Merancang evaluasi | Implementasi 15 berkas suite Playwright, helpers, konfigurasi lingkungan | Ilham, Nurul, Reiksa | [tests/](../tests), [playwright.config.ts](../playwright.config.ts) |
 | 5 | 9–15 Nov 2026 | Melaksanakan evaluasi | Eksekusi manual white box, black box, grey box + tangkapan bukti | Ilham, Nurul | [docs/04](04-hasil-manual.md), [qa-evidence/](../qa-evidence) |
 | 6 | 16–20 Nov 2026 | Melaksanakan evaluasi | Eksekusi otomasi 86 test case, metrik kinerja/axe/coverage, laporan HTML | Reiksa | [docs/05](05-hasil-otomasi.md), [reports/](../reports) |
@@ -80,7 +81,7 @@ dan milestone pengumpulan 5 Desember. Sumber Mermaid:
 |---|---|---|
 | M1 — Rencana disetujui | 25 Okt 2026 | [docs/02](02-test-plan.md) final: ambang, risiko, kriteria keluar |
 | M2 — Desain dan suite siap | 8 Nov 2026 | 81 ID test case + 15 berkas spec dapat dijalankan |
-| M3 — Eksekusi selesai | 20 Nov 2026 | 86 eksekusi otomasi + 12 skenario manual, bukti lengkap |
+| M3 — Eksekusi selesai | 20 Nov 2026 | 86 eksekusi otomasi + 13 skenario manual, bukti lengkap (verifikasi ulang 26 Nov 2026) |
 | M4 — Laporan final | 24 Nov 2026 | [docs/06](06-laporan-evaluasi.md) dan [docs/07](07-daftar-insiden.md) final, README siap |
 | M5 — Tugas dikumpulkan | 5 Des 2026 | Seluruh dokumen 01–08, bukti, dan literatur diperiksa; presentasi siap |
 
