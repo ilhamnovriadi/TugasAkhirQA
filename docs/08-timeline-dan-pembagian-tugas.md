@@ -1,11 +1,11 @@
-# 08 — Timeline Pengujian & Pembagian Tugas (Kelompok 2)
+# 08 - Timeline Pengujian & Pembagian Tugas (Kelompok 2)
 
 Dokumen ini menjadwalkan seluruh aktivitas pengujian pada tugas akhir ini dan membagi beban
 kerjanya secara merata ke empat anggota **Kelompok 2**. Ruang lingkup mengacu pada
 [docs/02 §2.2](02-test-plan.md#22-ruang-lingkup), tahapan mengikuti **ISO/IEC 25040:2024**, dan
 keluaran mengikuti [docs/03](03-test-design.md).
 
-> **Asumsi jadwal.** Proyek berdurasi **8 minggu, 12 Oktober – 5 Desember 2026**, dengan eksekusi
+> **Asumsi jadwal.** Proyek berdurasi **8 minggu, 12 Oktober - 5 Desember 2026**, dengan eksekusi
 > otomasi pada **20 November 2026**, diverifikasi ulang **26 November 2026** (lihat
 > [docs/05](05-hasil-otomasi.md)) dan **batas pengumpulan
 > tugas 5 Desember 2026**. Bila dosen menetapkan tanggal lain, seluruh minggu dapat digeser tanpa
@@ -15,21 +15,21 @@ keluaran mengikuti [docs/03](03-test-design.md).
 
 | Minggu | Tanggal | Fase ISO/IEC 25040:2024 | Aktivitas utama | PIC | Keluaran |
 |---|---|---|---|---|---|
-| 1 | 12–18 Okt 2026 | Menetapkan kebutuhan evaluasi | Studi 8 standar 2022–2026, identifikasi objek uji, aktor, dan ruang lingkup | Adji | [docs/01](01-standar-qa-2022-2026.md) |
-| 2 | 19–25 Okt 2026 | Menetapkan kebutuhan evaluasi | Test plan: metrik & ambang 25010, kriteria masuk/keluar, risiko | Adji, review Ilham | [docs/02](02-test-plan.md) |
-| 3 | 26 Okt–1 Nov 2026 | Menyusun spesifikasi evaluasi | Desain 81 ID test case (35 BB, 13 WB, 23 GB, 10 NF), data uji, matriks keterlacakan, 13 skenario manual | Ilham, Nurul | [docs/03](03-test-design.md) |
-| 4 | 2–8 Nov 2026 | Merancang evaluasi | Implementasi 15 berkas suite Playwright, helpers, konfigurasi lingkungan | Ilham, Nurul, Reiksa | [tests/](../tests), [playwright.config.ts](../playwright.config.ts) |
-| 5 | 9–15 Nov 2026 | Melaksanakan evaluasi | Eksekusi manual white box, black box, grey box + tangkapan bukti | Ilham, Nurul | [docs/04](04-hasil-manual.md), [qa-evidence/](../qa-evidence) |
-| 6 | 16–20 Nov 2026 | Melaksanakan evaluasi | Eksekusi otomasi 86 test case, metrik kinerja/axe/coverage, laporan HTML | Reiksa | [docs/05](05-hasil-otomasi.md), [reports/](../reports) |
-| 6 | 16–22 Nov 2026 | Melaksanakan evaluasi | Konsolidasi temuan menjadi 18 insiden + keparahan + rekomendasi | Nurul, dibantu semua | [docs/07](07-daftar-insiden.md) |
-| 7 | 21–24 Nov 2026 | Menyimpulkan evaluasi | Skor 25010/25019, laporan evaluasi, README | Adji, semua | [docs/06](06-laporan-evaluasi.md), [README](../README.md) |
-| 8 | 25 Nov–5 Des 2026 | Menyimpulkan evaluasi & finalisasi | Review akhir dokumen, verifikasi ulang temuan, latihan presentasi, pengumpulan tugas | Semua, koordinasi Adji | Paket tugas final (dikumpulkan 5 Des) |
+| 1 | 12-18 Okt 2026 | Menetapkan kebutuhan evaluasi | Studi 8 standar 2022-2026, identifikasi objek uji, aktor, dan ruang lingkup | Adji | [docs/01](01-standar-qa-2022-2026.md) |
+| 2 | 19-25 Okt 2026 | Menetapkan kebutuhan evaluasi | Test plan: metrik & ambang 25010, kriteria masuk/keluar, risiko | Adji, review Ilham | [docs/02](02-test-plan.md) |
+| 3 | 26 Okt-1 Nov 2026 | Menyusun spesifikasi evaluasi | Desain 81 ID test case (35 BB, 13 WB, 23 GB, 10 NF), data uji, matriks keterlacakan, 13 skenario manual | Ilham, Nurul | [docs/03](03-test-design.md) |
+| 4 | 2-8 Nov 2026 | Merancang evaluasi | Implementasi 15 berkas suite Playwright, helpers, konfigurasi lingkungan | Ilham, Nurul, Reiksa | [tests/](../tests), [playwright.config.ts](../playwright.config.ts) |
+| 5 | 9-15 Nov 2026 | Melaksanakan evaluasi | Eksekusi manual white box, black box, grey box + tangkapan bukti | Ilham, Nurul | [docs/04](04-hasil-manual.md), [qa-evidence/](../qa-evidence) |
+| 6 | 16-20 Nov 2026 | Melaksanakan evaluasi | Eksekusi otomasi 86 test case, metrik kinerja/axe/coverage, laporan HTML | Reiksa | [docs/05](05-hasil-otomasi.md), [reports/](../reports) |
+| 6 | 16-22 Nov 2026 | Melaksanakan evaluasi | Konsolidasi temuan menjadi 18 insiden + keparahan + rekomendasi | Nurul, dibantu semua | [docs/07](07-daftar-insiden.md) |
+| 7 | 21-24 Nov 2026 | Menyimpulkan evaluasi | Skor 25010/25019, laporan evaluasi, README | Adji, semua | [docs/06](06-laporan-evaluasi.md), [README](../README.md) |
+| 8 | 25 Nov-5 Des 2026 | Menyimpulkan evaluasi & finalisasi | Review akhir dokumen, verifikasi ulang temuan, latihan presentasi, pengumpulan tugas | Semua, koordinasi Adji | Paket tugas final (dikumpulkan 5 Des) |
 
-Ringkasan jadwal dalam bentuk gambar — delapan minggu pengerjaan dan lima milestone:
+Ringkasan jadwal dalam bentuk gambar - delapan minggu pengerjaan dan lima milestone:
 
-[![Timeline mingguan dan milestone M1–M5](../diagrams/06-timeline-milestone.png)](../diagrams/06-timeline-milestone.png)
+[![Timeline mingguan dan milestone M1-M5](../diagrams/06-timeline-milestone.png)](../diagrams/06-timeline-milestone.png)
 
-*Gambar 8.1 — Timeline mingguan 12 Oktober – 5 Desember 2026 beserta milestone M1–M5. Sumber
+*Gambar 8.1 - Timeline mingguan 12 Oktober - 5 Desember 2026 beserta milestone M1-M5. Sumber
 Mermaid: [diagrams/06-timeline-milestone.mmd](../diagrams/06-timeline-milestone.mmd).*
 
 ## 8.2 Pembagian tugas per anggota
@@ -45,7 +45,7 @@ Pemerataan beban: **4 × 25 = 100 jam** (21 jam pengerjaan inti + 4 jam finalisa
 memegang satu area pertanggungjawaban utama dan tetap mengeksekusi sebagian test case, sehingga
 tidak ada anggota yang hanya menyusun dokumen atau hanya menulis kode.
 
-Tahap finalisasi (25 November – 5 Desember 2026) menambah **4 jam** per anggota:
+Tahap finalisasi (25 November - 5 Desember 2026) menambah **4 jam** per anggota:
 
 | Anggota | Tugas finalisasi |
 |---|---|
@@ -58,7 +58,7 @@ Tahap finalisasi (25 November – 5 Desember 2026) menambah **4 jam** per anggot
 
 [![Diagram Gantt pengujian per anggota](../diagrams/05-timeline-gantt.png)](../diagrams/05-timeline-gantt.png)
 
-*Gambar 8.2 — Diagram Gantt 12 Oktober – 5 Desember 2026: beban tiap anggota, tahap finalisasi,
+*Gambar 8.2 - Diagram Gantt 12 Oktober - 5 Desember 2026: beban tiap anggota, tahap finalisasi,
 dan milestone pengumpulan 5 Desember. Sumber Mermaid:
 [diagrams/05-timeline-gantt.mmd](../diagrams/05-timeline-gantt.mmd).*
 
@@ -66,7 +66,7 @@ dan milestone pengumpulan 5 Desember. Sumber Mermaid:
 
 | Ketentuan tugas | Penanggung jawab | Bukti |
 |---|---|---|
-| Kajian standar terbitan 2022–2026 | Adji | [docs/01](01-standar-qa-2022-2026.md) |
+| Kajian standar terbitan 2022-2026 | Adji | [docs/01](01-standar-qa-2022-2026.md) |
 | Rencana dan desain pengujian | Adji, Ilham | [docs/02](02-test-plan.md), [docs/03](03-test-design.md) |
 | White box (manual + otomatis) | Nurul | TC-WB-01…13, [tests/02-whitebox](../tests/02-whitebox) |
 | Black box (manual + otomatis) | Ilham | TC-BB-01…35, [tests/01-blackbox](../tests/01-blackbox) |
@@ -79,17 +79,17 @@ dan milestone pengumpulan 5 Desember. Sumber Mermaid:
 
 | Milestone | Tanggal | Kriteria selesai |
 |---|---|---|
-| M1 — Rencana disetujui | 25 Okt 2026 | [docs/02](02-test-plan.md) final: ambang, risiko, kriteria keluar |
-| M2 — Desain dan suite siap | 8 Nov 2026 | 81 ID test case + 15 berkas spec dapat dijalankan |
-| M3 — Eksekusi selesai | 20 Nov 2026 | 86 eksekusi otomasi + 13 skenario manual, bukti lengkap (verifikasi ulang 26 Nov 2026) |
-| M4 — Laporan final | 24 Nov 2026 | [docs/06](06-laporan-evaluasi.md) dan [docs/07](07-daftar-insiden.md) final, README siap |
-| M5 — Tugas dikumpulkan | 5 Des 2026 | Seluruh dokumen 01–08, bukti, dan literatur diperiksa; presentasi siap |
+| M1 - Rencana disetujui | 25 Okt 2026 | [docs/02](02-test-plan.md) final: ambang, risiko, kriteria keluar |
+| M2 - Desain dan suite siap | 8 Nov 2026 | 81 ID test case + 15 berkas spec dapat dijalankan |
+| M3 - Eksekusi selesai | 20 Nov 2026 | 86 eksekusi otomasi + 13 skenario manual, bukti lengkap (verifikasi ulang 26 Nov 2026) |
+| M4 - Laporan final | 24 Nov 2026 | [docs/06](06-laporan-evaluasi.md) dan [docs/07](07-daftar-insiden.md) final, README siap |
+| M5 - Tugas dikumpulkan | 5 Des 2026 | Seluruh dokumen 01-08, bukti, dan literatur diperiksa; presentasi siap |
 
 ## 8.6 Ketergantungan dan jalur kritis
 
 1. **Jalur kritis:** docs/02 → docs/03 → suite otomasi → eksekusi 20 Nov → docs/07 → docs/06.
    Keterlambatan pada salah satu tahap menggeser seluruh tahap berikutnya.
-2. **Buffer:** 21 November – 4 Desember 2026 disediakan untuk mengulang eksekusi otomasi,
+2. **Buffer:** 21 November - 4 Desember 2026 disediakan untuk mengulang eksekusi otomasi,
    meregenerasi [docs/05](05-hasil-otomasi.md), dan merevisi laporan sebelum pengumpulan
    5 Desember 2026.
 3. **Ketergantungan eksternal:** akses situs produksi dan izin pemilik sistem (lihat
