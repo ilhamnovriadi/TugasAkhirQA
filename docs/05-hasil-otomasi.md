@@ -1,6 +1,6 @@
-# 05 — Hasil Pengujian Otomatis
+# 05 - Hasil Pengujian Otomatis
 
-Dihasilkan otomatis oleh `scripts/summarize.mjs` dari `reports/results.json`.
+Dihasilkan otomatis oleh [`scripts/summarize.mjs`](scripts/summarize.mjs) dari [`reports/results.json`](reports/results.json).
 
 - Tanggal eksekusi: 2026-11-26
 - Perintah: `npm test` (Playwright, Chromium headless, 2 worker)
