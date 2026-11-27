@@ -14,8 +14,8 @@ ISO/IEC 25010:2023 dan model kualitas dalam penggunaan ISO/IEC 25019:2023.
 | Cakupan modul | 10 halaman publik + halaman detail paket/artikel + panel login admin |
 | Instrumen | Playwright 1.65.1, axe-core 4.10 (WCAG 2.0/2.1 A-AA), V8 code coverage, `curl` |
 
-Rincian tiap test case: [`docs/05-hasil-otomasi.md`](docs/05-hasil-otomasi.md) (dihasilkan otomatis). Insiden dan
-rekomendasi: [`docs/07-daftar-insiden.md`](docs/07-daftar-insiden.md).
+Rincian tiap test case: [`docs/05-hasil-otomasi.md`](../docs/05-hasil-otomasi.md) (dihasilkan otomatis). Insiden dan
+rekomendasi: [`docs/07-daftar-insiden.md`](../docs/07-daftar-insiden.md).
 
 ## 6.2 Hasil per karakteristik ISO/IEC 25010:2023
 
