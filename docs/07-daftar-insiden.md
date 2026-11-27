@@ -1,4 +1,4 @@
-# 07 — Daftar Insiden (Defect Register)
+# 07 - Daftar Insiden (Defect Register)
 
 Setiap insiden dipetakan ke karakteristik ISO/IEC 25010:2023 yang terdampak dan ke test case
 yang gagal. Tingkat keparahan: **Critical** (menghambat tujuan utama/pengguna luas),
@@ -12,7 +12,7 @@ yang gagal. Tingkat keparahan: **Critical** (menghambat tujuan utama/pengguna lu
 | INC-03 | Atribut `lang="en"` pada konten berbahasa Indonesia | Medium | Interaction capability | TC-WB-07, MT-WB-01 |
 | INC-04 | Hierarki heading melompat `h1 → h3` pada `/artikel` | Low | Maintainability | TC-WB-02 |
 | INC-05 | Kontrol formulir tanpa label terasosiasi (`label[for]`/`aria-label`): 2 input reservasi, 11 kontrol formulir agen, 3 kolom pencarian, 1 `select` | High | Interaction capability (WCAG 1.3.1, 4.1.2) | TC-WB-05, MT-WB-02 |
-| INC-06 | Pelanggaran axe: `button-name` (critical, 2 tombol ikon tanpa nama), `color-contrast` (serious), `meta-viewport` (moderate, zoom dinonaktifkan) | High | Interaction capability | TC-NF-08, `reports/metrics/axe-*.json` |
+| INC-06 | Pelanggaran axe: `button-name` (critical, 2 tombol ikon tanpa nama), `color-contrast` (serious), `meta-viewport` (moderate, zoom dinonaktifkan) | High | Interaction capability | TC-NF-08, [`reports/metrics/axe-*.json`](reports/metrics) |
 | INC-07 | Header keamanan tidak ada: CSP, `X-Frame-Options`/`frame-ancestors`, `X-Content-Type-Options`, `Referrer-Policy`, HSTS | High | Security | TC-GB-02, MT-GB-01 |
 | INC-08 | `http://taqwatravel.com` merespons 200 tanpa pengalihan ke HTTPS; `www.taqwatravel.com` tidak memiliki DNS record | High | Security, Compatibility | TC-GB-06 |
 | INC-09 | Halaman login admin `/dashboard` dapat diindeks mesin pencari (tanpa `noindex`/`X-Robots-Tag`) | Medium | Security | TC-GB-07, MT-GB-02 |
@@ -22,9 +22,9 @@ yang gagal. Tingkat keparahan: **Critical** (menghambat tujuan utama/pengguna lu
 | INC-13 | Harga tidak ditampilkan pada kartu daftar paket `/products` (0 kemunculan `Rp`/`$`), padahal tampil di beranda dan halaman detail | High | Functional suitability, Quality-in-use | TC-BB-23, MT-BB-07 |
 | INC-14 | Tautan internal rusak: `/paket-umroh` → 404, `/kontak` → 404 | High | Functional suitability, Reliability | TC-BB-27 |
 | INC-15 | Kartu paket bukan elemen `<a href>` (0 tautan `/product/` di DOM), hanya `<div>` + `<button>` sehingga tidak dapat dibuka di tab baru/di-crawl | Medium | Functional suitability, Maintainability | Observasi `productLinks: 0` |
-| INC-16 | Tautan “Layanan Kami” di footer (Paket Umroh, Paket Haji, Haji Khusus VIP, Tour Internasional, Visa & Dokumen, Konsultasi, Tentang Kami, Testimoni, Berita & Artikel, FAQ, Kontak) semuanya `href="#"` — tidak menuju halaman mana pun | High | Functional suitability | Observasi DOM footer |
+| INC-16 | Tautan “Layanan Kami” di footer (Paket Umroh, Paket Haji, Haji Khusus VIP, Tour Internasional, Visa & Dokumen, Konsultasi, Tentang Kami, Testimoni, Berita & Artikel, FAQ, Kontak) semuanya `href="#"` - tidak menuju halaman mana pun | High | Functional suitability | Observasi DOM footer |
 | INC-17 | Formulir pendaftaran agen tidak memiliki atribut `required`, `aria-invalid`, atau pesan error yang terasosiasi (0 field `required`, 0 `input:invalid`) | Medium | Interaction capability, Security (integritas data) | MT-BB-06 ,MT-WB-02, TC-WB-05 |
-| INC-18 | Bundel `base.js` pemutar YouTube dimuat dua kali (masing-masing ±1,7 MB) pada beranda karena dua embed video | Low | Performance efficiency | `reports/metrics/js-coverage.json` |
+| INC-18 | Bundel `base.js` pemutar YouTube dimuat dua kali (masing-masing ±1,7 MB) pada beranda karena dua embed video | Low | Performance efficiency | [`reports/metrics/js-coverage.json`](reports/metrics/js-coverage.json) |
 
 ## 7.1 Rekomendasi perbaikan (prioritas)
 
@@ -80,6 +80,6 @@ terjadi pada deployment produksi per 26 November 2026.
 | INC-17 | Masih terjadi | `MT-BB-06.invalidFields` = 0, `requiredFields` = 0 |
 | INC-18 | Masih terjadi | 2 permintaan `base.js` YouTube pada beranda (pengamatan jaringan 26 Nov 2026) |
 
-Catatan: INC-18 sebelumnya dirujuk ke `reports/metrics/js-coverage.json`; berkas itu dihasilkan
+Catatan: INC-18 sebelumnya dirujuk ke [`reports/metrics/js-coverage.json`](reports/metrics/js-coverage.json); berkas itu dihasilkan
 ulang pada eksekusi 26 November dan tidak lagi memuat entri `base.js`, sehingga buktinya diganti
 dengan pengamatan jaringan langsung.
