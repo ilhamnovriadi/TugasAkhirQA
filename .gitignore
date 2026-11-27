@@ -15,3 +15,6 @@ playwright-report/
 
 # Berkas sementara
 *.log
+
+# Prompt agen (khusus lokal, tidak di-commit)
+AGENTS.md
