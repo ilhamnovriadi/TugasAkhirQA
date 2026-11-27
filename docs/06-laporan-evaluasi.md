@@ -1,4 +1,4 @@
-# 06 — Laporan Evaluasi Kualitas
+# 06 - Laporan Evaluasi Kualitas
 
 Fase **“menyimpulkan evaluasi”** (ISO/IEC 25040:2024 §7.6) dengan model kualitas
 ISO/IEC 25010:2023 dan model kualitas dalam penggunaan ISO/IEC 25019:2023.
@@ -12,14 +12,14 @@ ISO/IEC 25010:2023 dan model kualitas dalam penggunaan ISO/IEC 25019:2023.
 | Test case manual | 13 kasus (2 white box, 7 black box, 2 grey box, 2 non-fungsional) |
 | Insiden tercatat | 18 (0 Critical, 7 High, 7 Medium, 4 Low) |
 | Cakupan modul | 10 halaman publik + halaman detail paket/artikel + panel login admin |
-| Instrumen | Playwright 1.65.1, axe-core 4.10 (WCAG 2.0/2.1 A–AA), V8 code coverage, `curl` |
+| Instrumen | Playwright 1.65.1, axe-core 4.10 (WCAG 2.0/2.1 A-AA), V8 code coverage, `curl` |
 
-Rincian tiap test case: `docs/05-hasil-otomasi.md` (dihasilkan otomatis). Insiden dan
-rekomendasi: `docs/07-daftar-insiden.md`.
+Rincian tiap test case: [`docs/05-hasil-otomasi.md`](docs/05-hasil-otomasi.md) (dihasilkan otomatis). Insiden dan
+rekomendasi: [`docs/07-daftar-insiden.md`](docs/07-daftar-insiden.md).
 
 ## 6.2 Hasil per karakteristik ISO/IEC 25010:2023
 
-Skala 1–5 (1 = tidak memenuhi, 3 = memenuhi sebagian, 5 = memenuhi penuh) dengan bobot sama.
+Skala 1-5 (1 = tidak memenuhi, 3 = memenuhi sebagian, 5 = memenuhi penuh) dengan bobot sama.
 
 | # | Karakteristik | Skor | Bukti terukur | Justifikasi |
 |---|---|---:|---|---|
@@ -32,7 +32,7 @@ Skala 1–5 (1 = tidak memenuhi, 3 = memenuhi sebagian, 5 = memenuhi penuh) deng
 | 7 | Maintainability | **3** | 2 `<h1>`; 2 `<title>`; `lang="en"`; heading melompat `h1→h3`; 0 `id` duplikat; cakupan fungsi 69,2% | Struktur dapat dianalisis, tetapi metadata dan semantik tidak konsisten (INC-01…04) |
 | 8 | Flexibility | **5** | 4 viewport tanpa overflow; menu mobile berfungsi; target sentuh ≥ 40 px; font H1 mobile ≥ 24 px | Adaptasi tata letak berhasil |
 | 9 | Safety | **4** | Cek reservasi menolak kode tidak valid dengan pesan jelas; tidak ada aksi destruktif tanpa konfirmasi | Aman untuk operasi baca; validasi formulir agen lemah (INC-17) |
-| — | **Rata-rata produk** | **3,6** | | **Memenuhi sebagian — perlu perbaikan terarah** |
+| - | **Rata-rata produk** | **3,6** | | **Memenuhi sebagian - perlu perbaikan terarah** |
 
 **Quality-in-use (ISO/IEC 25019:2023):** skor **3/5**. Efektivitas tugas utama baik (5 dari 6
 skenario manual selesai tanpa hambatan), efisiensi baik (LCP < 1 s), namun kepuasan terhambat oleh
@@ -53,7 +53,7 @@ hilangnya harga pada daftar paket dan tautan footer yang tidak berfungsi.
 | Node DOM beranda | < 2.500 | < 2.500 | Lulus |
 | Ukuran HTML beranda | 61 KB | < 200 KB | Lulus |
 | Pelanggaran axe (beranda) | 1 critical, 1 serious, 1 moderate | 0 critical/serious | **Gagal** |
-| Overflow horizontal (375–1920 px) | 0 px | 0 px | Lulus |
+| Overflow horizontal (375-1920 px) | 0 px | 0 px | Lulus |
 | Header keamanan wajib | 0/5 | 5/5 | **Gagal** |
 | Canonical per halaman | 1/3 halaman | 3/3 | **Gagal** |
 
@@ -70,10 +70,10 @@ hilangnya harga pada daftar paket dan tautan footer yang tidak berfungsi.
 
 1. **Fungsi utama situs berjalan baik.** Navigasi, pencarian paket, filter, detail paket, detail
    artikel, cek reservasi, galeri, dan testimoni bekerja tanpa error JavaScript; kinerja muat
-   sangat baik (LCP 664 ms, 376 KB) dan tata letak responsif pada 375–1920 px.
-2. **Tiga area perlu perbaikan mendesak:** (a) kelengkapan fungsi komersial — harga tidak tampil
-   pada daftar paket dan 11 tautan footer tidak mengarah ke mana pun; (b) keamanan dasar — tidak
-   ada header keamanan, HTTPS tidak dipaksakan, `www` tidak resolve; (c) aksesibilitas — kontrol
+   sangat baik (LCP 664 ms, 376 KB) dan tata letak responsif pada 375-1920 px.
+2. **Tiga area perlu perbaikan mendesak:** (a) kelengkapan fungsi komersial - harga tidak tampil
+   pada daftar paket dan 11 tautan footer tidak mengarah ke mana pun; (b) keamanan dasar - tidak
+   ada header keamanan, HTTPS tidak dipaksakan, `www` tidak resolve; (c) aksesibilitas - kontrol
    tanpa label, tombol tanpa nama, kontras gagal, dan zoom dinonaktifkan.
 3. **Kualitas metadata lemah** (dua `<title>`, dua `<h1>`, `lang="en"`) sehingga merugikan SEO dan
    pembaca layar meski tidak terlihat oleh pengguna umum.
