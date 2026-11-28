@@ -13,6 +13,7 @@ dijalankan secara **manual** (white box, black box, grey box) serta **otomatis**
 | Hasil terakhir | [86 test case: 71 lulus, 15 gagal](#hasil-pengujian) - kegagalan adalah defect nyata |
 | Laporan | [Evaluasi kualitas](docs/06-laporan-evaluasi.md) · [Daftar insiden](docs/07-daftar-insiden.md) |
 | Jadwal | [Timeline 12 Okt–5 Des 2026 + diagram Gantt](docs/08-timeline-dan-pembagian-tugas.md) |
+| Wawancara | [Azhar Antasena Khadafi, QA Engineer](docs/09-wawancara-praktisi.md) - **rencana**, belum dilaksanakan; jawaban masih kosong |
 
 ## Kelompok 2
 
@@ -38,6 +39,7 @@ Repositori ini disusun oleh Kelompok 2 untuk tugas akhir QA.
 - [Menjalankan Pengujian](#menjalankan-pengujian)
 - [Hasil Pengujian](#hasil-pengujian)
 - [Bukti Pengujian Manual](#bukti-pengujian-manual)
+- [Wawancara Praktisi](#wawancara-praktisi)
 - [Literatur](#literatur)
 - [Batasan](#batasan)
 
@@ -127,6 +129,7 @@ Mermaid: [diagrams/04-alur-temuan-insiden.mmd](diagrams/04-alur-temuan-insiden.m
 | [docs/06-laporan-evaluasi.md](docs/06-laporan-evaluasi.md) | Laporan evaluasi kualitas ISO/IEC 25010 & 25019 |
 | [docs/07-daftar-insiden.md](docs/07-daftar-insiden.md) | 18 insiden + tingkat keparahan + rekomendasi |
 | [docs/08-timeline-dan-pembagian-tugas.md](docs/08-timeline-dan-pembagian-tugas.md) | Timeline 12 Okt–5 Des 2026, pembagian tugas 4 anggota, gambar Gantt |
+| [docs/09-wawancara-praktisi.md](docs/09-wawancara-praktisi.md) | Rencana wawancara praktisi QA: profil narasumber dan 4 pertanyaan (jawaban belum diisi) |
 | [diagrams/](diagrams) | 6 gambar PNG diagram + sumber Mermaid `*.mmd` ([Gambar 1–4](#alur-pengujian), [Gantt](diagrams/05-timeline-gantt.png), [timeline](diagrams/06-timeline-milestone.png)) |
 | [tests/](tests) | Suite otomasi: [01-blackbox](tests/01-blackbox) · [02-whitebox](tests/02-whitebox) · [03-greybox](tests/03-greybox) · [04-nonfungsional](tests/04-nonfungsional) · [support/helpers.ts](tests/support/helpers.ts) |
 | [scripts/](scripts) | [summarize.mjs](scripts/summarize.mjs) (regenerasi docs/05) · [capture-manual-evidence.mjs](scripts/capture-manual-evidence.mjs) (tangkapan bukti) · [render-diagrams.mjs](scripts/render-diagrams.mjs) (Mermaid → PNG) |
@@ -191,6 +194,27 @@ HTTPS, serta pelanggaran aksesibilitas (`button-name`, `color-contrast`).
 
 Hasil lengkap tiap skenario manual (termasuk yang tidak disertai tangkapan layar) ada di
 [docs/04-hasil-manual.md](docs/04-hasil-manual.md).
+
+## Wawancara Praktisi
+
+Wawancara praktisi QA **masih direncanakan dan belum dilaksanakan**, sehingga hasil pengujian pada
+repositori ini belum dibandingkan dengan pengalaman industri. Narasumber yang dituju adalah
+**Azhar Antasena Khadafi**, QA Engineer di IDEKU dengan pengalaman ± 5 tahun (Tokopedia 2021-2023,
+PHINCON 2023-2024, IDEKU 2024-sekarang); data profilnya bersumber dari profil LinkedIn publik, bukan
+hasil wawancara. Daftar pertanyaan, ruang jawaban yang masih kosong, dan catatan etikanya ada di
+[docs/09-wawancara-praktisi.md](docs/09-wawancara-praktisi.md).
+
+| Pertanyaan | Cakupan pertanyaan (belum dijawab) |
+|---|---|
+| Profil tester | Latar belakang pendidikan dan perjalanan karier; perbedaan peran di Tokopedia, PHINCON, dan IDEKU; alat dan ritme kerja sehari-hari |
+| Kondisi testing saat ini | Kondisi pengujian di lapangan; pembagian kerja manual vs otomasi; siapa yang menentukan keputusan *go/no-go* rilis |
+| Prospek karier | Menjanjikan atau tidak; jenjang karier QA yang terlihat di lapangan; saran untuk mahasiswa yang ingin masuk QA |
+| Kendala lapangan | Kendala yang dialami dan cara menyiasatinya; sikap saat akses sistem tidak diberikan atau ada tekanan meloloskan rilis |
+
+Karena jawaban belum tersedia, tidak ada kutipan narasumber yang dipakai di dokumen lain. Kaitan pertanyaan
+dengan temuan repositori (INC-07/08, INC-13/14/16, dan batas panel admin pada
+[docs/07 §7.2](docs/07-daftar-insiden.md#72-insiden-yang-tidak-dapat-diuji-blocked)) baru diisi pada
+[docs/09 §9.5](docs/09-wawancara-praktisi.md) setelah wawancara dilakukan.
 
 ## Literatur
 
